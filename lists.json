@@ -9,7 +9,7 @@
      "id": 1,
      "text": "Fogo De Chao",
      "tier": "SSS",
-     "conf": 88,
+     "conf": 89,
      "note": "Stellar experience. No wait time, incredible steak, never left hungry, great sides and salad bar"
     },
     {
@@ -76,11 +76,18 @@
      "note": "Wider variety than Cava, more convenient, and better tasting drinks. Flavorful Mediterranean wraps, makes me feel healthier"
     },
     {
+     "id": 23,
+     "text": "Zaxby's",
+     "tier": "S",
+     "conf": 82,
+     "note": "Had it for the first time on my road trip, instantly hooked. Super juicy crispy chicken with a lovely lemon pepper seasoning to go with it. FAT crinkle cut fries, bold sauce, nice coleslaw, strawberry nerds milkshake was cool"
+    },
+    {
      "id": 11,
      "text": "Cava",
      "tier": "S",
-     "conf": 42,
-     "note": "Wonderful mediterranean food, makes me feel healthy. Memories with coworkers. Usually get a bowl. Needs more sauce, but otherwise great"
+     "conf": 77,
+     "note": "Wonderful mediterranean food, makes me feel healthy. Memories with coworkers. Usually get a bowl. Needs more sauce, but otherwise great. Service has been kinda ass lately though"
     },
     {
      "id": 12,
@@ -160,11 +167,11 @@
      "note": "Great to meet up with friends. Steak sandwich was phenomenal, liked their cucumber refresher and getting a bloomin' onion. Lovely sides"
     },
     {
-     "id": 23,
-     "text": "Zaxby's",
+     "id": 27,
+     "text": "Crust N' Fire",
      "tier": "S",
-     "conf": 31,
-     "note": "Had it for the first time on my road trip, instantly hooked. Super juicy crispy chicken with a lovely lemon pepper seasoning to go with it"
+     "conf": 79,
+     "note": "Need to go there more to confirm, but that rustic slice with pepperoni and ricotta might be one of my new favorite pizzas. White pie also really tasty, and also raspberry lime rickey."
     },
     {
      "id": 24,
@@ -186,13 +193,6 @@
      "tier": "S",
      "conf": 92,
      "note": "Vodka rig pizza, general tso's pizza, short rib ravioli. Not all dinners are the best there, but they have some major hits"
-    },
-    {
-     "id": 27,
-     "text": "Crust N' Fire",
-     "tier": "S",
-     "conf": 79,
-     "note": "Need to go there more to confirm, but that rustic slice with pepperoni and ricotta might be one of my new favorite pizzas. White pie also really tasty, and also raspberry lime rickey."
     },
     {
      "id": 28,
@@ -537,6 +537,13 @@
      "note": "Really nice pastrami burger, great diner to go to as a default"
     },
     {
+     "id": 79,
+     "text": "Holy Burger",
+     "tier": "B",
+     "conf": 70,
+     "note": "Tasty burger and MASSIVE amount of chicken bites for a crazy cheap price. Need to pat down the chicken to get some of the grease off first cuz otherwise it makes me feel sick"
+    },
+    {
      "id": 77,
      "text": "Culver's",
      "tier": "B",
@@ -549,13 +556,6 @@
      "tier": "B",
      "conf": 46,
      "note": "Tasty street corn dip, meatloaf was mid."
-    },
-    {
-     "id": 79,
-     "text": "Holy Burger",
-     "tier": "B",
-     "conf": 16,
-     "note": "Tasty burger and MASSIVE amount of chicken bites for a crazy cheap price, but didn't feel so good after eating there. Not sure if I should blame the chicken. Need to try again."
     },
     {
      "id": 80,
@@ -1295,18 +1295,18 @@
      "note": "I don't really know how to describe the flavor, but it's a refreshing sweetness that doesn't overpower you at all. I could drink them all day, and they still taste great when diluted. Thankfully they come in small bottles too"
     },
     {
-     "id": 2,
-     "text": "Foco mangosteen Drink",
-     "tier": "SSS",
-     "conf": 83,
-     "note": "A marvelous fruity taste with some added thickness. Felt like I was drinking a tropical milkshake. Like a peach and a strawberry. Can't drink it too much, but I would have it all the time if it were good for me."
-    },
-    {
      "id": 3,
      "text": "Cherry Clearly Canadian Zero Sugar",
      "tier": "SSS",
      "conf": 83,
      "note": "Lovely refreshing beverage with my favorite cherry flavor, not too tart and not too artificial. Also love the glass bottle, and I think it's better for you for being sweetened with Stevia."
+    },
+    {
+     "id": 2,
+     "text": "Foco mangosteen Drink",
+     "tier": "SSS",
+     "conf": 83,
+     "note": "A marvelous fruity taste with some added thickness. Felt like I was drinking a tropical milkshake. Like a peach and a strawberry. Can't drink it too much, but I would have it all the time if it were good for me."
     },
     {
      "id": 4,
@@ -1358,6 +1358,13 @@
      "note": "Favorite snapple flavor, always refreshing and a great example of good raspberry flavor"
     },
     {
+     "id": 15,
+     "text": "Stewarts Cherry Cream Soda",
+     "tier": "SS",
+     "conf": 80,
+     "note": "A treat of a soda"
+    },
+    {
      "id": 11,
      "text": "Joe Tea Peach Tea",
      "tier": "SS"
@@ -1368,23 +1375,11 @@
      "tier": "SS"
     },
     {
-     "id": 13,
-     "text": "Capri Sun Pacific Cooler",
-     "tier": "SS"
-    },
-    {
      "id": 14,
      "text": "Apple & Eve Cran Raspberry Juice",
      "tier": "SS",
      "conf": 45,
      "note": "Haven't had it in a while, but a beautiful mix of flavors"
-    },
-    {
-     "id": 15,
-     "text": "Stewarts Cherry Cream Soda",
-     "tier": "SS",
-     "conf": 80,
-     "note": "A treat of a soda"
     },
     {
      "id": 16,
@@ -1394,11 +1389,9 @@
      "note": "A nice treat whenever I go to granny & pops. Complements dinner well"
     },
     {
-     "id": 17,
-     "text": "Strawberry Watermelon Frostie",
-     "tier": "S",
-     "conf": 95,
-     "note": "Lovely sweet flavor, two S tier fruits combined. Fizz gets a bit in the way though"
+     "id": 13,
+     "text": "Capri Sun Pacific Cooler",
+     "tier": "SS"
     },
     {
      "id": 18,
@@ -1408,18 +1401,39 @@
      "note": "Haven't had it in a long time, but I remember liking how powerful the flavor is through the fizz"
     },
     {
-     "id": 19,
-     "text": "Red Rock Merengue Soda",
-     "tier": "S",
-     "conf": 78,
-     "note": "Quaint creamy soda that has a nice color and label"
-    },
-    {
      "id": 20,
      "text": "Brisk Raspberry Iced Tea",
      "tier": "S",
      "conf": 85,
      "note": "Very refreshing for a raspberry flavor. Will prefer this over regular iced tea if they have it"
+    },
+    {
+     "id": 24,
+     "text": "Simply Watermelon Juice",
+     "tier": "S",
+     "conf": 54,
+     "note": "Great drink mom used to get us"
+    },
+    {
+     "id": 29,
+     "text": "Stewart's Cream Soda",
+     "tier": "S",
+     "conf": 93,
+     "note": "A lovely sweetness that feels great to drink, goes down smooth"
+    },
+    {
+     "id": 17,
+     "text": "Strawberry Watermelon Frostie",
+     "tier": "S",
+     "conf": 95,
+     "note": "Lovely sweet flavor, two S tier fruits combined. Fizz gets a bit in the way though"
+    },
+    {
+     "id": 19,
+     "text": "Red Rock Merengue Soda",
+     "tier": "S",
+     "conf": 78,
+     "note": "Quaint creamy soda that has a nice color and label"
     },
     {
      "id": 21,
@@ -1429,13 +1443,6 @@
      "note": "The fizzle and tang of mountain dew with added refreshingness"
     },
     {
-     "id": 22,
-     "text": "Strawberries & Cream Dr. Pepper",
-     "tier": "S",
-     "conf": 48,
-     "note": "Dr. Pepper only loses points with their other flavors, but this is still a nice flavor combo"
-    },
-    {
      "id": 23,
      "text": "Orange Calpico",
      "tier": "S",
@@ -1443,18 +1450,18 @@
      "note": "Sweet orange cream creaminess"
     },
     {
-     "id": 24,
-     "text": "Simply Watermelon Juice",
+     "id": 22,
+     "text": "Strawberries & Cream Dr. Pepper",
      "tier": "S",
-     "conf": 80,
-     "note": "Great drink mom used to get us"
+     "conf": 48,
+     "note": "Dr. Pepper only loses points with their other flavors, but this is still a nice flavor combo"
     },
     {
-     "id": 25,
-     "text": "Poppi Cherry Limeade",
+     "id": 31,
+     "text": "Welch's White Grape Juice",
      "tier": "S",
-     "conf": 81,
-     "note": "First poppi flavor I tried, enjoy the tang of the lime without it being too bad for me compared to the other drinks on the list."
+     "conf": 66,
+     "note": "Very sweet and refreshing flavor, miss it quite a bit"
     },
     {
      "id": 26,
@@ -1478,46 +1485,11 @@
      "note": "Something is just so crisp about it. Best lemon lime soda"
     },
     {
-     "id": 29,
-     "text": "Stewart's Cream Soda",
+     "id": 25,
+     "text": "Poppi Cherry Limeade",
      "tier": "S",
-     "conf": 93,
-     "note": "A lovely sweetness that feels great to drink, goes down smooth"
-    },
-    {
-     "id": 30,
-     "text": "Stewart's Root Beer",
-     "tier": "S",
-     "conf": 78,
-     "note": "A much better root beer than most of the other canned ones"
-    },
-    {
-     "id": 31,
-     "text": "Welch's White Grape Juice",
-     "tier": "S",
-     "conf": 66,
-     "note": "Very sweet and refreshing flavor, miss it quite a bit"
-    },
-    {
-     "id": 32,
-     "text": "Poland Springs Orange Sparkling Water",
-     "tier": "S",
-     "conf": 63,
-     "note": "No sugar, brings through a pleasant orange flavor without the bubbles overpowering"
-    },
-    {
-     "id": 33,
-     "text": "Trader Joes Sparkling Strawberry Juice",
-     "tier": "S",
-     "conf": 90,
-     "note": "Get these most often from trader joes, only stopped cuz I was worried about sugar. Lovely strawberry flavor"
-    },
-    {
-     "id": 34,
-     "text": "Hug Fruit Barrels - Blue",
-     "tier": "S",
-     "conf": 74,
-     "note": "blue popsicle juice :)"
+     "conf": 81,
+     "note": "First poppi flavor I tried, enjoy the tang of the lime without it being too bad for me compared to the other drinks on the list."
     },
     {
      "id": 35,
@@ -1527,11 +1499,18 @@
      "note": "Always love cracking one of these open"
     },
     {
-     "id": 36,
-     "text": "Arizona Watermelon Fruit Juice Cocktail",
+     "id": 30,
+     "text": "Stewart's Root Beer",
      "tier": "S",
-     "conf": 70,
-     "note": "Very refreshing watermelon flavor, just prolly not great for me"
+     "conf": 78,
+     "note": "A much better root beer than most of the other canned ones"
+    },
+    {
+     "id": 33,
+     "text": "Trader Joes Sparkling Strawberry Juice",
+     "tier": "S",
+     "conf": 90,
+     "note": "Get these most often from trader joes, only stopped cuz I was worried about sugar. Lovely strawberry flavor"
     },
     {
      "id": 37,
@@ -1539,6 +1518,27 @@
      "tier": "S",
      "conf": 77,
      "note": "very much enjoyed getting this at cracker barrel back when it was good"
+    },
+    {
+     "id": 32,
+     "text": "Poland Springs Orange Sparkling Water",
+     "tier": "S",
+     "conf": 63,
+     "note": "No sugar, brings through a pleasant orange flavor without the bubbles overpowering"
+    },
+    {
+     "id": 34,
+     "text": "Hug Fruit Barrels - Blue",
+     "tier": "S",
+     "conf": 74,
+     "note": "blue popsicle juice :)"
+    },
+    {
+     "id": 36,
+     "text": "Arizona Watermelon Fruit Juice Cocktail",
+     "tier": "S",
+     "conf": 70,
+     "note": "Very refreshing watermelon flavor, just prolly not great for me"
     },
     {
      "id": 38,
@@ -2886,6 +2886,19 @@
      "tier": "F",
      "conf": 100,
      "note": "A complete and total abomination"
+    }
+   ]
+  },
+  {
+   "id": "meshuggah-songs",
+   "name": "Meshuggah Songs",
+   "items": [
+    {
+     "id": 1795580407171.171,
+     "text": "New Millennium Cyanide Christ",
+     "conf": 100,
+     "tier": "SSS",
+     "note": "Best guitar solo of all time, punchy riffs, gives the thick buzzy guitar tone time to really ring out. Very powerful right before the ending fade out"
     }
    ]
   }
