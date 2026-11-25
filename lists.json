@@ -4,13 +4,13 @@
   "chaosphere": 1795583061805,
   "meshuggah-i": 1795582276934,
   "meshuggah-the-violent-sleep-of-reason": 1795618873727,
-  "meshuggah-obzen": 1795618728520,
+  "meshuggah-obzen": 1795625399351,
   "meshuggah-catch33": 1795619420521,
   "meshuggah-immutable": 1795619032151,
   "meshuggah-rare-trax": 1795620341975,
+  "nothing": 1795619207298,
   "meshuggah-destroy-erase-improve": 1795619367090,
-  "meshuggah-koloss": 1795618882915,
-  "nothing": 1795619207298
+  "meshuggah-koloss": 1795618882915
  },
  "lists": [
   {
@@ -2972,7 +2972,8 @@
      "id": 1795581785372.86,
      "text": "The Exquisite Machinery of Torture",
      "img": "chaosphere",
-     "tier": "S"
+     "tier": "S",
+     "note": "This video really makes me appreciate the rhythm of the song a lot more: https://youtu.be/0wLDUfCYPOc?si=rBQ-MHFTQKjhMNUW\n"
     },
     {
      "id": 1795581791442.5227,
@@ -2993,6 +2994,14 @@
      "tier": "A"
     },
     {
+     "id": 1795581916318.475,
+     "text": "Perpetual Black Second",
+     "img": "nothing",
+     "tier": "A",
+     "conf": 49,
+     "note": "Favorite from Nothing, intro riff is vile in a great way. Very fun crazy solo. Only part I don't like as much is the shorter stab guitar notes"
+    },
+    {
      "id": 1795581804448.131,
      "text": "Future Breed Machine",
      "img": "meshuggah-destroy-erase-improve",
@@ -3005,12 +3014,11 @@
      "tier": "A"
     },
     {
-     "id": 1795581916318.475,
-     "text": "Perpetual Black Second",
-     "img": "nothing",
-     "tier": "A",
-     "conf": 49,
-     "note": "Favorite from Nothing, intro riff is vile in a great way. Very fun crazy solo. Only part I don't like as much is the shorter stab guitar notes"
+     "id": 1795582270125.8748,
+     "text": "I",
+     "img": "meshuggah-i",
+     "note": "Doesn't really count as a 'song,' but there's so much I love in here, particularly from the buildup to the solo / in the middle til before it slows down at the end. Sometimes it does go on a bit too long though. Iconic chaotic solo",
+     "tier": "A"
     },
     {
      "id": 1795581927832.3774,
@@ -3037,20 +3045,6 @@
      "tier": "A"
     },
     {
-     "id": 1795582270125.8748,
-     "text": "I",
-     "img": "meshuggah-i",
-     "note": "Doesn't really count as a 'song,' but there's so much I love in here, particularly from the buildup to the solo / in the middle til before it slows down at the end. Sometimes it does go on a bit too long though. Iconic chaotic solo",
-     "tier": "A"
-    },
-    {
-     "id": 1795583393954.189,
-     "text": "Electric Red",
-     "img": "meshuggah-obzen",
-     "tier": "B",
-     "note": "Not the biggest fan of the intro, but I do like what it tries to do with the muted dissonant chords with interspliced fast strumming bits. Gets very interesting in the middle. Favorite part is when the high whine guitar comes in. The quiet part after it builds tension in a unique way."
-    },
-    {
      "id": 1795582250656.8672,
      "text": "Corridor of Chameleons",
      "tier": "A",
@@ -3067,7 +3061,29 @@
      "id": 1795583929153.8496,
      "text": "Armies of the Preposterous",
      "tier": "A",
-     "img": "meshuggah-immutable"
+     "img": "meshuggah-immutable",
+     "note": "Machine gun stomping guitar and drum combo really hits. Builds anticipation for the lower down parts that are more intense. Interesting how it feels both slow and fast. Feels like a spiritual successor to The Demon's Name is Surveillance. "
+    },
+    {
+     "id": 1795583402455.323,
+     "text": "ObZen",
+     "img": "meshuggah-obzen",
+     "tier": "A",
+     "note": "I like the punchiness of this one and tempo. The high note step downs add some frame around the gatling rhythm. Good headbanger. Only the ending is a bit odd"
+    },
+    {
+     "id": 1795583419581.0872,
+     "text": "Dancers to a Discordant System",
+     "img": "meshuggah-obzen",
+     "tier": "A",
+     "note": "Interesting solo, the intro takes a second to get into, but once the heavier guitar fills in behind the light guitar it hits much better. I like what this one does melodically. I like the droning strums at the end a good bit too"
+    },
+    {
+     "id": 1795583393954.189,
+     "text": "Electric Red",
+     "img": "meshuggah-obzen",
+     "tier": "B",
+     "note": "Not the biggest fan of the intro, but I do like what it tries to do with the muted dissonant chords with interspliced fast strumming bits. Gets very interesting in the middle. Favorite part is when the high whine guitar comes in. The quiet part after it builds tension in a unique way."
     },
     {
      "id": 1795581990215.6514,
@@ -3089,13 +3105,6 @@
      "tier": "B",
      "img": "chaosphere",
      "note": "Less chaotic than Concatenation, but I like how it concentrates in the solo. I do kind of lose interest once it slows down though. Like the bite of the bit with the high drone"
-    },
-    {
-     "id": 1795582230971.0332,
-     "text": "Glints Collide",
-     "tier": "B",
-     "img": "nothing",
-     "note": "Neat solo, kinda strange riff but I can still get behind it"
     },
     {
      "id": 1795582242678.7703,
@@ -3124,11 +3133,25 @@
      "img": "meshuggah-immutable"
     },
     {
-     "id": 1795583916275.1592,
-     "text": "Black Cathedral",
-     "tier": "C",
+     "id": 1795583716100.592,
+     "text": "Sum",
+     "img": "meshuggah-catch33",
+     "tier": "B",
+     "note": "Short because it's just a snippet in the catch 33 album with the ending bit tacked on. I really like the higher drones and powerful scream + the guitars all coming together. Do not care for the actual ending though. Just weird plinky guitars, will probably skip that. But at least the first part is pretty great. "
+    },
+    {
+     "id": 1795583768679.7966,
+     "text": "Sublevels",
+     "img": "meshuggah-destroy-erase-improve",
+     "tier": "B",
+     "note": "Reminds me a bit of Mekong Delta. Different than most of their other work in a good way, thought provoking chord choices and solo that contrasts with the shuggy parts. Could see myself seeking this one out from time to time. Mysterious ending is hit or miss"
+    },
+    {
+     "id": 1795583932561.639,
+     "text": "Past Tense",
      "img": "meshuggah-immutable",
-     "note": "Interesting black metal sound. I like when it dips into the lower ranges, but leaves a lot to be desired from it just being a guitar track. The second half is better than the first. "
+     "tier": "B",
+     "note": "Kind of slow / weak start, but the second half is much more provocative and I like it much better than most of the other melodic meshuggah tracks"
     },
     {
      "id": 1795583398193.1458,
@@ -3136,33 +3159,11 @@
      "img": "meshuggah-obzen"
     },
     {
-     "id": 1795583402455.323,
-     "text": "ObZen",
-     "img": "meshuggah-obzen"
-    },
-    {
-     "id": 1795583407802.1794,
-     "text": "The Spiteful Snake",
-     "img": "meshuggah-obzen"
-    },
-    {
-     "id": 1795583412708.9314,
-     "text": "Pravus",
-     "img": "meshuggah-obzen",
-     "tier": "C",
-     "note": "Very cool creeping / climbing melody, but it hits a lot better live than on the recording. Recording just feels like it's weirdly jumbled. "
-    },
-    {
-     "id": 1795583419581.0872,
-     "text": "Dancers to a Discordant System",
-     "img": "meshuggah-obzen",
-     "tier": "A",
-     "note": "Interesting solo, the intro takes a second to get into, but once the heavier guitar fills in behind the light guitar it hits much better. I like what this one does melodically. I like the droning strums at the end a good bit too"
-    },
-    {
      "id": 1795583490076.742,
      "text": "Break Those Bones Whose Sinews Gave It Motion",
-     "img": "meshuggah-koloss"
+     "img": "meshuggah-koloss",
+     "tier": "C",
+     "note": "Beginning note plucking is annoying. Largely slow and not super inspiring, but the solo is neat in its difference. "
     },
     {
      "id": 1795583566005.2856,
@@ -3180,21 +3181,9 @@
      "img": "meshuggah-the-violent-sleep-of-reason"
     },
     {
-     "id": 1795583606756.4482,
-     "text": "Our Rage Won't Die",
-     "img": "meshuggah-the-violent-sleep-of-reason",
-     "tier": "C"
-    },
-    {
      "id": 1795583610510.6206,
      "text": "Into Decay",
      "img": "meshuggah-the-violent-sleep-of-reason"
-    },
-    {
-     "id": 1795583632228.859,
-     "text": "Autonomy Lost",
-     "img": "meshuggah-catch33",
-     "tier": "B"
     },
     {
      "id": 1795583636992.03,
@@ -3202,18 +3191,8 @@
      "img": "meshuggah-catch33"
     },
     {
-     "id": 1795583642642.8782,
-     "text": "Disenchantment",
-     "img": "meshuggah-catch33"
-    },
-    {
      "id": 1795583647736.2063,
      "text": "Paradoxical Spiral",
-     "img": "meshuggah-catch33"
-    },
-    {
-     "id": 1795583650587.6135,
-     "text": "Entrapment",
      "img": "meshuggah-catch33"
     },
     {
@@ -3230,23 +3209,6 @@
      "id": 1795583712732.4094,
      "text": "Dehumanization",
      "img": "meshuggah-catch33"
-    },
-    {
-     "id": 1795583716100.592,
-     "text": "Sum",
-     "img": "meshuggah-catch33"
-    },
-    {
-     "id": 1795583728797.2212,
-     "text": "Beneath",
-     "img": "meshuggah-destroy-erase-improve"
-    },
-    {
-     "id": 1795583735906.8542,
-     "text": "Soul Burn",
-     "img": "meshuggah-destroy-erase-improve",
-     "tier": "D",
-     "note": "Too slow and inharmonic with the chords at the beginning. Doesn't do anything interesting for me except for the solo being kinda interesting. "
     },
     {
      "id": 1795583741688.296,
@@ -3274,16 +3236,6 @@
      "img": "meshuggah-destroy-erase-improve"
     },
     {
-     "id": 1795583765656.0251,
-     "text": "Suffer in Truth",
-     "img": "meshuggah-destroy-erase-improve"
-    },
-    {
-     "id": 1795583768679.7966,
-     "text": "Sublevels",
-     "img": "meshuggah-destroy-erase-improve"
-    },
-    {
      "id": 1795583816707.477,
      "text": "Spasm",
      "img": "nothing"
@@ -3294,31 +3246,9 @@
      "img": "nothing"
     },
     {
-     "id": 1795583833056.2058,
-     "text": "Organic Shadows",
-     "img": "nothing"
-    },
-    {
      "id": 1795583839247.54,
      "text": "Straws Pulled at Random",
      "img": "nothing"
-    },
-    {
-     "id": 1795583843094.2852,
-     "text": "Nebulous",
-     "img": "nothing"
-    },
-    {
-     "id": 1795583846071.6584,
-     "text": "Obsidian",
-     "tier": "D",
-     "note": "Dragged out and repetitive. Cool sound to listen to, but hidden behind the intro and way too drawn out",
-     "img": "nothing"
-    },
-    {
-     "id": 1795583885551.5396,
-     "text": "The Abysmal Eye",
-     "img": "meshuggah-immutable"
     },
     {
      "id": 1795583891361.233,
@@ -3328,11 +3258,6 @@
     {
      "id": 1795583896691.9556,
      "text": "Ligature Marks",
-     "img": "meshuggah-immutable"
-    },
-    {
-     "id": 1795583902761.118,
-     "text": "God He Sees in Mirrors",
      "img": "meshuggah-immutable"
     },
     {
@@ -3347,10 +3272,88 @@
      "img": "meshuggah-immutable"
     },
     {
-     "id": 1795583932561.639,
-     "text": "Past Tense",
+     "id": 1795582230971.0332,
+     "text": "Glints Collide",
+     "tier": "C",
+     "img": "nothing",
+     "note": "Strange solo and riff. Riff clashes with solo."
+    },
+    {
+     "id": 1795583916275.1592,
+     "text": "Black Cathedral",
+     "tier": "C",
      "img": "meshuggah-immutable",
-     "tier": "B"
+     "note": "Interesting black metal sound. I like when it dips into the lower ranges, but leaves a lot to be desired from it just being a guitar track. The second half is better than the first. "
+    },
+    {
+     "id": 1795583412708.9314,
+     "text": "Pravus",
+     "img": "meshuggah-obzen",
+     "tier": "C",
+     "note": "Very cool creeping / climbing melody, but it hits a lot better live than on the recording. Recording just feels like it's weirdly jumbled. Once that stops and it's the same wet chord, I start losing interest. The second jumpy iteration isn't as good as the first. High chords in the middle are weird. "
+    },
+    {
+     "id": 1795583407802.1794,
+     "text": "The Spiteful Snake",
+     "img": "meshuggah-obzen",
+     "tier": "C",
+     "note": "Can't find myself latching onto any part I like, except for maybe the descending part. Feels all over the place. Solo falls into the \"managed chaos\" category that is like Glints Collide, which I am also not the biggest fan of. It's too slow and the chaos results in inharmonic sweeps"
+    },
+    {
+     "id": 1795583606756.4482,
+     "text": "Our Rage Won't Die",
+     "img": "meshuggah-the-violent-sleep-of-reason",
+     "tier": "C",
+     "note": "Just feels like the same thing the whole time, shifting around a different high note until you get to the slower part. Doesn't really do anything interesting for me. Ending drone is kinda cool though "
+    },
+    {
+     "id": 1795583632228.859,
+     "text": "Autonomy Lost",
+     "img": "meshuggah-catch33",
+     "tier": "C",
+     "note": "Same problem as all the Catch Thirtythree songs. Doesn't feel like it has a proper start and end, which makes it hard to listen to on its own. I do at least like that this is the start though, properly introducing the rest."
+    },
+    {
+     "id": 1795583642642.8782,
+     "text": "Disenchantment",
+     "img": "meshuggah-catch33",
+     "note": "Same problem as all the Catch Thirtythree songs. Doesn't feel like it has a proper start and end, which makes it hard to listen to on its own. The one step up in this one is the whispered bit building tension as you fall back into the drone, but then it just immediately ends. ",
+     "tier": "C"
+    },
+    {
+     "id": 1795583650587.6135,
+     "text": "Entrapment",
+     "img": "meshuggah-catch33",
+     "note": "Same problem as all the Catch Thirtythree songs. This one has the gross sliding I don't like though. I do really like the ending drone though. ",
+     "tier": "C"
+    },
+    {
+     "id": 1795583728797.2212,
+     "text": "Beneath",
+     "img": "meshuggah-destroy-erase-improve",
+     "tier": "C",
+     "note": "Really like the opening riff how the chords stab at you, and the down rolling notes that follow along the drums is nice and punchy. Solo and midsection of the song are a bit weak though. There are parts I like and others I can pass on. Will definitely be cutting out that weird ending though. "
+    },
+    {
+     "id": 1795583765656.0251,
+     "text": "Suffer in Truth",
+     "img": "meshuggah-destroy-erase-improve",
+     "tier": "C",
+     "note": "Kind of flat and repetitive. Feels like it's missing something at the high drone part. "
+    },
+    {
+     "id": 1795583843094.2852,
+     "text": "Nebulous",
+     "img": "nothing",
+     "note": "Unique slow, slimy intro, but doesn't hold up once the lyrics come in. The slow vocals rarely work for me. The right pan part where it slams back into your left ear was kinda funny, and the polyrhythm part with the snare and guitar was interesting, plus the grindy drone after the solo, but I don't see myself wanting to listen to this one regularly. ",
+     "tier": "C"
+    },
+    {
+     "id": 1795583885551.5396,
+     "text": "The Abysmal Eye",
+     "img": "meshuggah-immutable",
+     "tier": "C",
+     "note": "Don't really care for the chord progression. The extended bend notes prevent it from having as much punch as some other tracks. The solo has some tasty notes in it, but I wish it moved a bit more. "
     },
     {
      "id": 1795582236073.255,
@@ -3371,7 +3374,7 @@
      "text": "Rational Gaze",
      "img": "nothing",
      "tier": "C",
-     "note": "Really not crazy about it like everyone else. Do not like the solo, the main riff misses out on that kind of fuzz buzz that I like in other songs. Too much empty guitar space. I do like the parts though where there's a higher set of notes to overlay the guitar punch"
+     "note": "Really not crazy about it like everyone else. Do not like the solo, the main riff misses out on that kind of fuzz buzz that I like in other songs. I don't like the rhythm of how it jumps up and down. Too much empty guitar space. I do like the parts though where there's a higher set of notes to overlay the guitar punch, but the melody in the vocal parts is kinda flat."
     },
     {
      "id": 1795582022178.9438,
@@ -3405,8 +3408,29 @@
      "id": 1795583496243.676,
      "text": "The Last Vigil",
      "tier": "C",
-     "note": "The ambient songs are always just kinda meh. Not really what I look for in Meshuggah, but there's nothing wrong with it on its face. Doesn't do much melodically though",
+     "note": "Makes me think of the light room from Sonic Unleashed. Nice reverberated elements that I enjoy for a moment. I do wish the melody went somewhere though. Ends up feeling repetitive",
      "img": "meshuggah-koloss"
+    },
+    {
+     "id": 1795583735906.8542,
+     "text": "Soul Burn",
+     "img": "meshuggah-destroy-erase-improve",
+     "tier": "D",
+     "note": "Too slow and inharmonic with the chords at the beginning. Doesn't do anything interesting for me except for the solo being kinda interesting. "
+    },
+    {
+     "id": 1795583846071.6584,
+     "text": "Obsidian",
+     "tier": "D",
+     "note": "Dragged out and repetitive. Cool sound to listen to, but hidden behind the intro and way too drawn out",
+     "img": "nothing"
+    },
+    {
+     "id": 1795583902761.118,
+     "text": "God He Sees in Mirrors",
+     "img": "meshuggah-immutable",
+     "tier": "D",
+     "note": "Constant sliding makes me a bit nauseous. Just going up and down the whole time in an unpleasant way. Chorded section is unique, but feels a bit out of place. Also a unique solo, but it doesn't feel like it fits the underlying riff. "
     },
     {
      "id": 1795583056137.4263,
@@ -3439,6 +3463,13 @@
      "img": "meshuggah-catch33"
     },
     {
+     "id": 1795583833056.2058,
+     "text": "Organic Shadows",
+     "img": "nothing",
+     "tier": "D",
+     "note": "Do not like how it feels like a skewed swing waltz. It feels like something is wrong. My brain anticipates something else the whole time I'm hearing it. Chord / note choice annoys me. Solo feels like it takes from other shuggah songs. Get that \"missing something\" feeling a lot too. "
+    },
+    {
      "id": 1795620158526.2034,
      "text": "By Emptiness Abducted",
      "img": "meshuggah-rare-trax",
@@ -3460,6 +3491,13 @@
      "note": "A riff that sounds like a bridge. Galloping first verse is odd. Then it just kinda falls apart. "
     },
     {
+     "id": 1795625387292.2122,
+     "text": "Pineal Gland Optics",
+     "img": "meshuggah-obzen",
+     "tier": "D",
+     "note": "Feels like it's all over the place rhythmically and melodically, yet also somehow repetitive. The solo feels like it's copying something different that doesn't fit in the song at all. I do kind of like the end though"
+    },
+    {
      "id": 1795620168403.5813,
      "text": "Debt of Nature",
      "img": "meshuggah-rare-trax",
@@ -3478,7 +3516,8 @@
      "text": "The Ayahuasca Experience",
      "tier": "F",
      "img": "meshuggah-rare-trax",
-     "note": "Wtf"
+     "note": "Wtf",
+     "conf": 83
     }
    ]
   }
