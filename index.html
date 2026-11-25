@@ -124,6 +124,14 @@ body.ro .arr[aria-pressed="false"]{display:none}
 body.ro .arr{pointer-events:none}
 body.ro .note:placeholder-shown,body.ro .llabel:placeholder-shown,body.ro .tier[data-tier=""]{display:none}
 body.ro .tier{pointer-events:none;appearance:none;-webkit-appearance:none;opacity:1}
+.thumb{flex:none;width:48px;height:48px;padding:0;border:1.5px solid var(--line);border-radius:8px;background:var(--bg) center/cover no-repeat;cursor:zoom-in}
+.thumb.noimg{border-style:dashed;color:var(--muted);font-size:1.3rem;line-height:1;cursor:pointer}
+body.ro .thumb.noimg{display:none}
+@media (max-width:440px){.thumb{width:38px;height:38px}}
+#lb{position:fixed;inset:0;z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:20px;background:rgba(10,14,28,.8)}
+#lb img{width:min(90vw,360px);height:auto;max-height:65vh;object-fit:contain;border-radius:12px;background:var(--surface)}
+#lb .cap{color:#fff;font-weight:600;text-align:center;overflow-wrap:anywhere}
+#lb .impbar{justify-content:center}
 </style>
 </head>
 <body>
@@ -191,15 +199,29 @@ body.ro .tier{pointer-events:none;appearance:none;-webkit-appearance:none;opacit
     </div>
   </div>
 </main>
+<div id="lb" hidden role="dialog" aria-modal="true" aria-label="Image">
+  <img id="lbImg" alt="">
+  <div class="cap" id="lbCap"></div>
+  <div class="impbar">
+    <span id="lbOwn" style="display:contents">
+      <button id="lbRep" type="button">Replace image</button>
+      <button id="lbDel" type="button">Remove image</button>
+    </span>
+    <button id="lbClose" class="pri" type="button">Close</button>
+  </div>
+</div>
 <script>
 var sortView=false,rankOf={},resortT;
 var items=[],list=document.getElementById('list'),input=document.getElementById('in');
 var lists=[],activeId=null,pubJSON='',cfg=null,DRAFT='ranker-draft',CFGK='ranker-gh';
+var imgs={},pending={},shown={},pubImgs=[],PENDK='ranker-pending',imgData={},lbItem=null;
 try{cfg=JSON.parse(localStorage.getItem(CFGK)||'null')}catch(e){cfg=null}
 var LOCAL=/^(localhost|127\.0\.0\.1|)$/.test(location.hostname);
 var RO=!(LOCAL||(cfg&&cfg.token));
 function curList(){return lists.find(function(l){return l.id===activeId})}
-function snapshot(){return JSON.stringify({version:1,lists:lists})}
+function usedImgs(){var u={};lists.forEach(function(l){l.items.forEach(function(x){if(x.img)u[x.img]=1})});return u}
+function docOf(){var u=usedImgs(),m={};Object.keys(u).forEach(function(k){m[k]=imgs[k]||0});return {version:1,images:m,lists:lists}}
+function snapshot(){return JSON.stringify(docOf())}
 var undoSnap=null;
 function save(){undoSnap=null;var u=document.getElementById('gUndo'),g=document.getElementById('gMsg');if(u)u.hidden=true;if(g)g.textContent='';var L=curList();if(L)L.items=items;if(!RO){try{localStorage.setItem(DRAFT,snapshot())}catch(e){}}paintPub()}
 function render(){
@@ -209,7 +231,7 @@ function render(){
   src.forEach(function(it,i){
     if(it.line){renderLine(it);return}
     var r=document.createElement('div');r.className='row';r.dataset.id=it.id;
-    r.innerHTML='<span class="grip" aria-hidden="true">⋮⋮</span><span class="n"></span><span class="t"></span><span class="dialslot"></span><select class="tier" aria-label="Tier"></select><button class="x" type="button" aria-label="Remove">×</button><textarea class="note" rows="1" placeholder="Why this rank? (optional)" aria-label="Notes"></textarea><button class="ins" type="button" aria-label="Add a line below this item">+ line</button>';
+    r.innerHTML='<span class="grip" aria-hidden="true">⋮⋮</span><span class="n"></span><button class="thumb" type="button"></button><span class="t"></span><span class="dialslot"></span><select class="tier" aria-label="Tier"></select><button class="x" type="button" aria-label="Remove">×</button><textarea class="note" rows="1" placeholder="Why this rank? (optional)" aria-label="Notes"></textarea><button class="ins" type="button" aria-label="Add a line below this item">+ line</button>';
     var dw=document.createElement('div');dw.className='dialwrap';
     dw.appendChild(makeDial(it));var dl=document.createElement('span');dl.className='dlabel';dl.textContent='Confidence';dw.appendChild(dl);
     r.querySelector('.dialslot').replaceWith(dw);
@@ -218,7 +240,7 @@ function render(){
       items.splice(at+1,0,ln);save();render();
       var f=list.querySelector('[data-id="'+ln.id+'"] .llabel');if(f)f.focus();
     };
-    r.querySelector('.t').textContent=it.text;
+    r.querySelector('.t').textContent=it.text;paintThumb(r.querySelector('.thumb'),it);
     var sel=r.querySelector('.tier');
     ['','SSS','SS','S','A','B','C','D','F'].forEach(function(t){
       var o=document.createElement('option');o.value=t;o.textContent=t||'Tier';sel.appendChild(o);
@@ -437,9 +459,9 @@ function buildExport(title){
   var n=0;
   var cards=items.map(function(it){
     if(it.line){var lb=(it.label||'').trim(),ar=it.dir==='up'?'\u25B2':it.dir==='down'?'\u25BC':'';return `<li class='ln'><span class='r'></span>${lb||ar?`<div class='br'><span class='st'></span>${ar?`<span class='ar'>${ar}</span>`:''}${lb?`<span class='lb'>${esc(lb)}</span>`:''}</div>`:''}</li>`}
-    var note=(it.note||'').trim(),cf=typeof it.conf==='number'?it.conf:null;
+    var im=it.img&&imgData[it.img]?"<img class='im' src='"+imgData[it.img]+"' alt=''>":'';var note=(it.note||'').trim(),cf=typeof it.conf==='number'?it.conf:null;
     var rt=(cf!==null?`<span class='cf' style='--c:hsl(${Math.round(cf*1.25)} 82% 40%)'>${cf}% sure</span>`:'')+(it.tier?`<span class='g' data-t='${esc(it.tier)}'>${esc(it.tier)}</span>`:'');
-    return `<li class='c${n===0?' f':''}'><span class='n'>${++n}</span><div class='b'><div class='h'><span class='t'>${esc(it.text)}</span>${rt?`<span class='rt'>${rt}</span>`:''}</div>${note?`<p>${esc(note).replace(/\n/g,'<br>')}</p>`:''}</div></li>`;
+    return `<li class='c${n===0?' f':''}'><span class='n'>${++n}</span>${im}<div class='b'><div class='h'><span class='t'>${esc(it.text)}</span>${rt?`<span class='rt'>${rt}</span>`:''}</div>${note?`<p>${esc(note).replace(/\n/g,'<br>')}</p>`:''}</div></li>`;
   }).join('');
   var css=`:root{--bg:#eef1f6;--s:#fff;--ink:#14213d;--mu:#6b7590;--ln:#d6dbe7;--ac:#2f4bff;--nm:#c3cade;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media(prefers-color-scheme:dark){:root{--bg:#0f1424;--s:#192038;--ink:#e8ecfa;--mu:#8a94b5;--ln:#2a3354;--ac:#7b8dff;--nm:#3a4570}}
@@ -473,13 +495,16 @@ ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10p
 .g[data-t='C']{background:#f5a02b;color:#2e1900}
 .g[data-t='D']{background:#f26a2e;color:#fff}
 .g[data-t='F']{background:#e53947;color:#fff}
-p{margin:8px 0 0;color:var(--mu);line-height:1.5;overflow-wrap:anywhere}`;
+p{margin:8px 0 0;color:var(--mu);line-height:1.5;overflow-wrap:anywhere}
+.im{flex:none;width:72px;height:72px;object-fit:cover;border-radius:10px;border:1.5px solid var(--ln)}`;
   return `<!DOCTYPE html>\n<html lang='en'>\n<head>\n<meta charset='utf-8'>\n<meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>\n<title>${esc(title)}</title>\n<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap'>\n<style>\n${css}\n</style>\n</head>\n<body>\n<main>\n<h1>${esc(title)}</h1>\n<p class='sub'>${n} item${n===1?'':'s'} \u00b7 ${esc(date)}</p>\n<ol>${cards}</ol>\n</main>\n</body>\n</html>`;
 }
 async function doExport(){
   var msg=document.getElementById('expMsg');
   if(!items.length){msg.textContent='Add some items first.';return}
   var title=(document.getElementById('expTitle').value||'').trim()||'My Ranking';
+  imgData={};
+  await Promise.all(items.filter(function(x){return x.img}).map(async function(x){try{imgData[x.img]=await toData(x.img)}catch(e){}}));
   var html=buildExport(title);
   var fname=(title.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'ranking')+'.html';
   var dl=null;
@@ -503,7 +528,7 @@ var drag=null;
 var EDGE=110,MAXSPEED=22;
 function pageY(){return drag.y+window.scrollY}
 function down(e){
-  if(RO||sortView||drag||e.target.closest('.x,.tier,.note,.edit,.llabel,.dial,.ins,.arr,.rankin'))return;
+  if(RO||sortView||drag||e.target.closest('.x,.thumb,.tier,.note,.edit,.llabel,.dial,.ins,.arr,.rankin'))return;
   if(e.pointerType==='touch'&&!e.target.closest('.grip'))return;
   if(e.button>0)return;
   e.preventDefault();
@@ -624,25 +649,35 @@ function b64(s){return btoa(unescape(encodeURIComponent(s)))}
 async function publish(){
   var m=document.getElementById('pubMsg');
   if(!cfg){m.textContent='Unlock with a GitHub token first (Owner).';return}
-  m.textContent='Publishing\u2026';
-  var url='https://api.github.com/repos/'+cfg.repo+'/contents/lists.json';
+  var base='https://api.github.com/repos/'+cfg.repo+'/contents/';
   var h={Authorization:'Bearer '+cfg.token,Accept:'application/vnd.github+json'};
-  try{
-    var sha,g=await fetch(url,{headers:h});
-    if(g.ok)sha=(await g.json()).sha;
-    else if(g.status!==404)throw new Error(g.status===401?'GitHub rejected the token.':'GitHub said '+g.status+'.');
-    var snap=snapshot(),body=JSON.stringify({version:1,lists:lists},null,1);
-    var p=await fetch(url,{method:'PUT',headers:h,body:JSON.stringify({message:'Update lists',content:b64(body),sha:sha})});
+  async function shaOf(path){var g=await fetch(base+path,{headers:h});if(g.ok)return (await g.json()).sha;if(g.status===404)return undefined;throw new Error(g.status===401?'GitHub rejected the token.':'GitHub said '+g.status+'.')}
+  async function put(path,content,msg){
+    var p=await fetch(base+path,{method:'PUT',headers:h,body:JSON.stringify({message:msg,content:content,sha:await shaOf(path)})});
     if(!p.ok)throw new Error(p.status===404||p.status===403?'That token can\u2019t write to '+cfg.repo+'.':'GitHub said '+p.status+'.');
-    pubJSON=snap;paintPub();m.textContent='Published. Visitors see it in a minute or two.';
+  }
+  try{
+    var snap=snapshot(),doc=docOf(),used=doc.images,k=0;
+    var up=Object.keys(pending).filter(function(n){return n in used});
+    for(var n of up){m.textContent='Uploading images '+(++k)+'/'+up.length+'\u2026';await put('images/'+n+'.jpg',pending[n].split(',')[1],'Update image '+n)}
+    for(var n2 of pubImgs.filter(function(x){return !(x in used)})){
+      m.textContent='Removing unused images\u2026';
+      var sh=await shaOf('images/'+n2+'.jpg');
+      if(sh){var d=await fetch(base+'images/'+n2+'.jpg',{method:'DELETE',headers:h,body:JSON.stringify({message:'Remove image '+n2,sha:sh})});if(!d.ok)throw new Error('GitHub said '+d.status+'.')}
+    }
+    m.textContent='Publishing\u2026';
+    await put('lists.json',b64(JSON.stringify(doc,null,1)),'Update lists');
+    Object.assign(shown,pending);pending={};savePending();
+    pubImgs=Object.keys(used);pubJSON=snap;paintPub();
+    m.textContent='Published. Visitors see it in a minute or two.';
   }catch(e){m.textContent=(e&&e.message)||'Publish failed.'}
 }
 document.getElementById('pubBtn').onclick=publish;
 document.getElementById('revBtn').onclick=function(){
   if(!confirm('Discard your unpublished changes?'))return;
-  try{localStorage.removeItem(DRAFT)}catch(e){}location.reload();
+  try{localStorage.removeItem(DRAFT);localStorage.removeItem(PENDK)}catch(e){}location.reload();
 };
-document.getElementById('dlBtn').onclick=function(){download('lists.json',JSON.stringify({version:1,lists:lists},null,1))};
+document.getElementById('dlBtn').onclick=function(){download('lists.json',JSON.stringify(docOf(),null,1))};
 var own=document.getElementById('own'),ownRepo=document.getElementById('ownRepo'),ownTok=document.getElementById('ownTok'),ownMsg=document.getElementById('ownMsg');
 document.getElementById('ownBtn').onclick=function(){
   own.hidden=!own.hidden;ownMsg.textContent='';if(own.hidden)return;
@@ -667,14 +702,56 @@ document.getElementById('ownSave').onclick=async function(){
 async function load(){
   var pub=null;
   try{var r=await fetch('lists.json?'+Date.now(),{cache:'no-store'});if(!r.ok)throw 0;pub=await r.json();if(!pub||!Array.isArray(pub.lists))pub=null}catch(e){pub=null}
-  if(pub){pub.lists.forEach(function(l){l.items=l.items||[]});pubJSON=JSON.stringify({version:1,lists:pub.lists})}
+  if(pub){pub.lists.forEach(function(l){l.items=l.items||[]});pubImgs=Object.keys(pub.images||{});pubJSON=JSON.stringify({version:1,images:pub.images||{},lists:pub.lists})}
   var data=pub;
-  if(!RO){try{var d=JSON.parse(localStorage.getItem(DRAFT)||'null');if(d&&Array.isArray(d.lists)&&d.lists.length){d.lists.forEach(function(l){l.items=l.items||[]});data=d}}catch(e){}}
+  if(!RO){try{pending=JSON.parse(localStorage.getItem(PENDK)||'{}')||{}}catch(e){pending={}}try{var d=JSON.parse(localStorage.getItem(DRAFT)||'null');if(d&&Array.isArray(d.lists)&&d.lists.length){d.lists.forEach(function(l){l.items=l.items||[]});data=d}}catch(e){}}
   if(!data){
     if(RO){list.innerHTML='<div class="empty">Couldn\u2019t load lists.json. If you opened this file straight from disk, serve the folder instead (for example with: python -m http.server).</div>';return}
     data={version:1,lists:[{id:'my-list',name:'My list',items:[]}]};
   }
-  lists=data.lists;pickFromHash();paintPub();
+  lists=data.lists;imgs=data.images||{};pickFromHash();paintPub();
+}
+function imgSrc(n){return pending[n]||shown[n]||('images/'+n+'.jpg'+(imgs[n]?'?v='+imgs[n]:''))}
+function paintThumb(b,it){
+  if(it.img){b.style.backgroundImage='url("'+imgSrc(it.img)+'")';b.title='View image';b.setAttribute('aria-label','View image: '+it.text);b.onclick=function(){openLb(it)}}
+  else{b.className='thumb noimg';b.textContent='+';b.title='Add image';b.setAttribute('aria-label','Add image');b.onclick=function(){pickImage(it)}}
+}
+function savePending(){try{localStorage.setItem(PENDK,JSON.stringify(pending))}catch(e){document.getElementById('pubMsg').textContent='Browser storage is full. Publish before adding more images.'}}
+function shrink(file){
+  return new Promise(function(ok,no){
+    var im=new Image(),u=URL.createObjectURL(file);
+    im.onload=function(){
+      var k=Math.min(1,256/Math.max(im.naturalWidth,im.naturalHeight)),c=document.createElement('canvas'),x=c.getContext('2d');
+      c.width=Math.max(1,Math.round(im.naturalWidth*k));c.height=Math.max(1,Math.round(im.naturalHeight*k));
+      x.fillStyle='#fff';x.fillRect(0,0,c.width,c.height);x.drawImage(im,0,0,c.width,c.height);
+      URL.revokeObjectURL(u);ok(c.toDataURL('image/jpeg',0.72));
+    };
+    im.onerror=function(){URL.revokeObjectURL(u);no()};im.src=u;
+  });
+}
+function pickImage(it){
+  var f=document.createElement('input');f.type='file';f.accept='image/*';
+  f.onchange=function(){if(f.files[0])setImage(it,f.files[0])};f.click();
+}
+async function setImage(it,file){
+  var name=file.name.replace(/\.[^.]+$/,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'')||'image';
+  try{var url=await shrink(file)}catch(e){document.getElementById('pubMsg').textContent='Couldn\u2019t read that image.';return}
+  pending[name]=url;imgs[name]=Date.now();it.img=name;savePending();save();render();
+}
+function openLb(it){
+  lbItem=it;var i=document.getElementById('lbImg');i.src=imgSrc(it.img);i.alt=it.text;
+  document.getElementById('lbCap').textContent=it.text;document.getElementById('lbOwn').hidden=RO;document.getElementById('lb').hidden=false;
+}
+function closeLb(){document.getElementById('lb').hidden=true}
+document.getElementById('lb').onclick=function(e){if(e.target===this)closeLb()};
+document.getElementById('lbClose').onclick=closeLb;
+document.getElementById('lbRep').onclick=function(){var it=lbItem;closeLb();pickImage(it)};
+document.getElementById('lbDel').onclick=function(){delete lbItem.img;closeLb();save();render()};
+document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!document.getElementById('lb').hidden)closeLb()});
+async function toData(n){
+  var s=pending[n]||shown[n];if(s)return s;
+  var r=await fetch(imgSrc(n));if(!r.ok)throw 0;var b=await r.blob();
+  return await new Promise(function(ok,no){var f=new FileReader();f.onload=function(){ok(f.result)};f.onerror=no;f.readAsDataURL(b)});
 }
 paintMode();load();
 </script>
