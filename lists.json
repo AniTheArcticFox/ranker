@@ -9,7 +9,7 @@
   "meshuggah-immutable": 1795581997995,
   "meshuggah-rare-trax": 1795583015422,
   "meshuggah-destroy-erase-improve": 1795581858485,
-  "meshuggah-koloss": 1795582721477,
+  "meshuggah-koloss": 1795583451871,
   "nothing": 1795582987800
  },
  "lists": [
@@ -2927,7 +2927,7 @@
      "img": "meshuggah-the-violent-sleep-of-reason",
      "conf": 83,
      "tier": "SS",
-     "note": "One of the heaviest, biting intro chords ever, really enjoy the cold high drones, hypnotic solo is one of my favorites, angelic end is beautiful and haunting. I just wish that the first verse and leadup to the end were a bit more full."
+     "note": "One of the heaviest, biting intro chords ever, really enjoy the cold high drones, hypnotic solo is one of my favorites, angelic end is beautiful and haunting. I just wish that the first verse and leadup to the end were a bit more full. This also only applies to the song when sped up to 102% speed."
     },
     {
      "id": 1795581243040.455,
@@ -3044,6 +3044,23 @@
      "tier": "A"
     },
     {
+     "id": 1795582250656.8672,
+     "text": "Corridor of Chameleons",
+     "tier": "A",
+     "note": "Insane breakdown, love the fast punchy guitar in the beginning, but it can be a bit repetitive. Like the structure of the solo in this one. ",
+     "img": "chaosphere"
+    },
+    {
+     "id": 1795583874153.311,
+     "text": "Broken Cog",
+     "tier": "A"
+    },
+    {
+     "id": 1795583929153.8496,
+     "text": "Armies of the Preposterous",
+     "tier": "A"
+    },
+    {
      "id": 1795581990215.6514,
      "text": "The Faultless",
      "img": "meshuggah-immutable",
@@ -3056,13 +3073,6 @@
      "img": "meshuggah-the-violent-sleep-of-reason",
      "tier": "B",
      "note": "Very fun solo, greatly enjoy the intro. Climbing riff is interesting, but a bit hard to follow as you listen. "
-    },
-    {
-     "id": 1795582022178.9438,
-     "text": "Sane",
-     "img": "chaosphere",
-     "tier": "C",
-     "note": "I hate that panning shit they do in the middle. Melody just seems kinda all over the place, same with the solo. But I do very much like the riff after the \"sane me\" part. "
     },
     {
      "id": 1795582036070.2705,
@@ -3079,13 +3089,6 @@
      "note": "Neat solo, kinda strange riff but I can still get behind it"
     },
     {
-     "id": 1795582236073.255,
-     "text": "Behind the Sun",
-     "img": "meshuggah-koloss",
-     "tier": "C",
-     "note": "Too slow for the large part. I very much enjoy the second half though, especially towards the end. Just kinda got ruined by it always coming on in my car by default for some reason. "
-    },
-    {
      "id": 1795582242678.7703,
      "text": "Born In Dissonance",
      "img": "meshuggah-the-violent-sleep-of-reason",
@@ -3093,18 +3096,214 @@
      "note": "Like what the riff has going for it, powerful ending, but the main portion of the song doesn't have enough power behind it. Interesting solo that is more reigned in than usual"
     },
     {
-     "id": 1795582250656.8672,
-     "text": "Corridor of Chameleons",
-     "tier": "A",
-     "note": "Insane breakdown, love the fast punchy guitar in the beginning, but it can be a bit repetitive. Like the structure of the solo in this one. ",
-     "img": "chaosphere"
-    },
-    {
      "id": 1795582261421.2031,
      "text": "I am Colossus",
      "tier": "B",
      "img": "meshuggah-koloss",
      "note": "Too slow for the most part, but I do like that one ascending triplet rhythm that reminds me of like a beta monstrocity "
+    },
+    {
+     "id": 1795582982514.7937,
+     "text": "Stengah",
+     "img": "nothing",
+     "tier": "B"
+    },
+    {
+     "id": 1795583906897.176,
+     "text": "They Move Below",
+     "tier": "B"
+    },
+    {
+     "id": 1795583916275.1592,
+     "text": "Black Cathedral",
+     "tier": "B"
+    },
+    {
+     "id": 1795583393954.189,
+     "text": "Electric Red"
+    },
+    {
+     "id": 1795583398193.1458,
+     "text": "Lethargica"
+    },
+    {
+     "id": 1795583402455.323,
+     "text": "ObZen"
+    },
+    {
+     "id": 1795583407802.1794,
+     "text": "The Spiteful Snake"
+    },
+    {
+     "id": 1795583412708.9314,
+     "text": "Pravus"
+    },
+    {
+     "id": 1795583419581.0872,
+     "text": "Dancers to a Discordant System"
+    },
+    {
+     "id": 1795583490076.742,
+     "text": "Break Those Bones Whose Sinews Gave It Motion"
+    },
+    {
+     "id": 1795583566005.2856,
+     "text": "Violent Sleep of Reason"
+    },
+    {
+     "id": 1795583593522.7102,
+     "text": "Ivory Tower"
+    },
+    {
+     "id": 1795583599094.248,
+     "text": "Nostrum"
+    },
+    {
+     "id": 1795583606756.4482,
+     "text": "Our Rage Won't Die"
+    },
+    {
+     "id": 1795583610510.6206,
+     "text": "Into Decay"
+    },
+    {
+     "id": 1795583632228.859,
+     "text": "Autonomy Lost"
+    },
+    {
+     "id": 1795583636992.03,
+     "text": "Imprint of the Un-Saved"
+    },
+    {
+     "id": 1795583642642.8782,
+     "text": "Disenchantment"
+    },
+    {
+     "id": 1795583647736.2063,
+     "text": "Paradoxical Spiral"
+    },
+    {
+     "id": 1795583650587.6135,
+     "text": "Entrapment"
+    },
+    {
+     "id": 1795583703532.6272,
+     "text": "In Death - Is Death"
+    },
+    {
+     "id": 1795583708680.297,
+     "text": "Personae Non Gratae"
+    },
+    {
+     "id": 1795583712732.4094,
+     "text": "Dehumanization"
+    },
+    {
+     "id": 1795583716100.592,
+     "text": "Sum"
+    },
+    {
+     "id": 1795583728797.2212,
+     "text": "Beneath"
+    },
+    {
+     "id": 1795583735906.8542,
+     "text": "Soul Burn"
+    },
+    {
+     "id": 1795583741688.296,
+     "text": "Transfixion"
+    },
+    {
+     "id": 1795583743992.4104,
+     "text": "Vanished"
+    },
+    {
+     "id": 1795583748936.2402,
+     "text": "Acrid Placidity"
+    },
+    {
+     "id": 1795583755547.2666,
+     "text": "Inside What's Within Behind"
+    },
+    {
+     "id": 1795583761097.614,
+     "text": "Terminal Illusions"
+    },
+    {
+     "id": 1795583765656.0251,
+     "text": "Suffer in Truth"
+    },
+    {
+     "id": 1795583768679.7966,
+     "text": "Sublevels"
+    },
+    {
+     "id": 1795583816707.477,
+     "text": "Spasm"
+    },
+    {
+     "id": 1795583822911.618,
+     "text": "Closed Eye Visuals"
+    },
+    {
+     "id": 1795583833056.2058,
+     "text": "Organic Shadows"
+    },
+    {
+     "id": 1795583839247.54,
+     "text": "Straws Pulled at Random"
+    },
+    {
+     "id": 1795583843094.2852,
+     "text": "Nebulous"
+    },
+    {
+     "id": 1795583846071.6584,
+     "text": "Obsidian"
+    },
+    {
+     "id": 1795583885551.5396,
+     "text": "The Abysmal Eye"
+    },
+    {
+     "id": 1795583891361.233,
+     "text": "Light the Shortening Fuse"
+    },
+    {
+     "id": 1795583896691.9556,
+     "text": "Ligature Marks"
+    },
+    {
+     "id": 1795583902761.118,
+     "text": "God He Sees in Mirrors"
+    },
+    {
+     "id": 1795583911347.0303,
+     "text": "Kaleidoscope"
+    },
+    {
+     "id": 1795583920951.3652,
+     "text": "I Am That Thirst",
+     "tier": ""
+    },
+    {
+     "id": 1795583932561.639,
+     "text": "Past Tense"
+    },
+    {
+     "id": 1795582022178.9438,
+     "text": "Sane",
+     "img": "chaosphere",
+     "tier": "C",
+     "note": "I hate that panning shit they do in the middle. Melody just seems kinda all over the place, same with the solo. But I do very much like the riff after the \"sane me\" part. "
+    },
+    {
+     "id": 1795582236073.255,
+     "text": "Behind the Sun",
+     "img": "meshuggah-koloss",
+     "tier": "C",
+     "note": "Too slow for the large part. I very much enjoy the second half though, especially towards the end. Just kinda got ruined by it always coming on in my car by default for some reason. "
     },
     {
      "id": 1795582265229.7312,
@@ -3121,16 +3320,17 @@
      "note": "Really not crazy about it like everyone else. Do not like the solo, the main riff misses out on that kind of fuzz buzz that I like in other songs. Too much empty guitar space. I do like the parts though where there's a higher set of notes to overlay the guitar punch"
     },
     {
-     "id": 1795582982514.7937,
-     "text": "Stengah",
-     "img": "nothing"
-    },
-    {
      "id": 1795583009545.8936,
      "text": "Concatenation (Remix)",
      "img": "meshuggah-rare-trax",
      "tier": "C",
      "note": "Brings new life to the track, but also takes a lot of its old life out. The solo in this one is no where near as good as how the original comes off"
+    },
+    {
+     "id": 1795583496243.676,
+     "text": "The Last Vigil",
+     "tier": "C",
+     "note": "The ambient songs are always just kinda meh. Not really what I look for in Meshuggah, but there's nothing wrong with it on its face. "
     },
     {
      "id": 1795583056137.4263,
@@ -3139,6 +3339,25 @@
      "tier": "D",
      "conf": 85,
      "note": "The part that is actually MUSIC is very foreboding and powerful. Solo is quirky on its own, but takes away from the rest of the track. Once you get to the weird slidy bit though, I cannot listen to it anymore as a track. Just conceptually I love the idea of this being the last song every played in the universe, and everything just explodes at the end with all the tracks playing at once. But it's more a meme than a song. "
+    },
+    {
+     "id": 1795583434648.7168,
+     "text": "Do Not Look Down",
+     "tier": "D",
+     "img": "meshuggah-koloss",
+     "note": "Very weird vibe as a Meshuggah song. Do not enjoy it"
+    },
+    {
+     "id": 1795583551008.2192,
+     "text": "By the Ton",
+     "tier": "D"
+    },
+    {
+     "id": 1795583654443.0781,
+     "text": "Mind's Mirrors",
+     "tier": "D",
+     "note": "Very weird, do not enjoy listening to it. Only serves as an interlude to In Death - Is Life",
+     "conf": 73
     }
    ]
   }
