@@ -1,5 +1,17 @@
 {
  "version": 1,
+ "images": {
+  "chaosphere": 1795583061805,
+  "meshuggah-i": 1795582276934,
+  "meshuggah-the-violent-sleep-of-reason": 1795582623665,
+  "meshuggah-obzen": 1795581541915,
+  "meshuggah-catch33": 1795581840884,
+  "meshuggah-immutable": 1795581997995,
+  "meshuggah-rare-trax": 1795583015422,
+  "meshuggah-destroy-erase-improve": 1795581858485,
+  "meshuggah-koloss": 1795582721477,
+  "nothing": 1795582987800
+ },
  "lists": [
   {
    "id": "restaurants",
@@ -2898,7 +2910,235 @@
      "text": "New Millennium Cyanide Christ",
      "conf": 100,
      "tier": "SSS",
-     "note": "Best guitar solo of all time, punchy riffs, gives the thick buzzy guitar tone time to really ring out. Very powerful right before the ending fade out"
+     "note": "Best guitar solo of all time, punchy riffs, gives the thick buzzy guitar tone time to really ring out. Very powerful right before the ending fade out. I just love the rhythm and riff that surrounds it",
+     "img": "chaosphere"
+    },
+    {
+     "id": 1795581121932.477,
+     "text": "Pitch Black",
+     "img": "meshuggah-i",
+     "note": "Wild guitar solo followed by melodic solo, most powerful ending. Shame it ends with a fadeout though. Different vocals in the beginning are interesting",
+     "conf": 70,
+     "tier": "SS"
+    },
+    {
+     "id": 1795581170036.0237,
+     "text": "Stifled",
+     "img": "meshuggah-the-violent-sleep-of-reason",
+     "conf": 83,
+     "tier": "SS",
+     "note": "One of the heaviest, biting intro chords ever, really enjoy the cold high drones, hypnotic solo is one of my favorites, angelic end is beautiful and haunting. I just wish that the first verse and leadup to the end were a bit more full."
+    },
+    {
+     "id": 1795581243040.455,
+     "text": "Concatenation",
+     "img": "chaosphere",
+     "conf": 67,
+     "tier": "SS",
+     "note": "Insanely violent and terrifying song that was too much for me when I first listened, but I've slowly come to appreciate its insanity. I love how fast it shifts to different heavy notes. The buildup to the withering distorted solo that repeatedly gets beat to hell by the underlying riff is just so raw. I appreciate this song for all it is, but you have to be in a mood for it otherwise it sticks out. "
+    },
+    {
+     "id": 1795581404064.252,
+     "text": "Bleed",
+     "img": "meshuggah-obzen",
+     "conf": 81,
+     "tier": "SS",
+     "note": "Iconic in every sense of the word. heavy, intimidating guitar drone that slashes through a steady snare beat, great solo. Need to have a well mixed version of it though or the guitar gets muddied. Only sometimes feels a bit repetitive. "
+    },
+    {
+     "id": 1795581535084.4456,
+     "text": "Combustion",
+     "tier": "S",
+     "img": "meshuggah-obzen",
+     "conf": 75,
+     "note": "A fiery opening riff that often gets stuck in my head, just makes me want to go go go. I love what they do with the guitar battling with the drums, but it can sometimes be hard to follow. Solo is pretty good, but not my favorite. "
+    },
+    {
+     "id": 1795581622483.3438,
+     "text": "Clockworks",
+     "conf": 78,
+     "img": "meshuggah-the-violent-sleep-of-reason",
+     "tier": "S",
+     "note": "Love it from clone hero. The rapid guitar and kicks plus the extended shrill notes in the beginning really make for a great visual of the cogs in a clock. Love the oddly hypnotic solo here too, and the dramatic chords in the refrain. Only detracts in the live versions where the guitar tone is somewhat muddied and hard to pick out. Also the bit after the first verse is a bit odd for me. "
+    },
+    {
+     "id": 1795581760581.576,
+     "text": "Shed",
+     "img": "meshuggah-catch33",
+     "conf": 75,
+     "tier": "S"
+    },
+    {
+     "id": 1795581785372.86,
+     "text": "The Exquisite Machinery of Torture",
+     "img": "chaosphere",
+     "tier": "S"
+    },
+    {
+     "id": 1795581791442.5227,
+     "text": "In Death Is Life",
+     "img": "meshuggah-catch33",
+     "tier": "S"
+    },
+    {
+     "id": 1795581794936.9282,
+     "text": "Phantoms",
+     "img": "meshuggah-immutable",
+     "tier": "A"
+    },
+    {
+     "id": 1795581799678.0964,
+     "text": "War",
+     "img": "meshuggah-rare-trax",
+     "tier": "A"
+    },
+    {
+     "id": 1795581804448.131,
+     "text": "Future Breed Machine",
+     "img": "meshuggah-destroy-erase-improve",
+     "tier": "A"
+    },
+    {
+     "id": 1795581902187.8428,
+     "text": "Marrow",
+     "img": "meshuggah-koloss",
+     "tier": "A"
+    },
+    {
+     "id": 1795581916318.475,
+     "text": "Perpetual Black Second",
+     "img": "nothing",
+     "tier": "A",
+     "conf": 49,
+     "note": "Favorite from Nothing, intro riff is vile in a great way. Very fun crazy solo. Only part I don't like as much is the shorter stab guitar notes"
+    },
+    {
+     "id": 1795581927832.3774,
+     "text": "Demiurge",
+     "img": "meshuggah-koloss",
+     "tier": "A"
+    },
+    {
+     "id": 1795581939772.487,
+     "text": "Swarm",
+     "img": "meshuggah-koloss",
+     "tier": "A"
+    },
+    {
+     "id": 1795581956042.4885,
+     "text": "The Hurt that Finds You First",
+     "img": "meshuggah-koloss",
+     "tier": "A"
+    },
+    {
+     "id": 1795581975101.5176,
+     "text": "The Demon's Name Is Surveillance",
+     "img": "meshuggah-koloss",
+     "tier": "A"
+    },
+    {
+     "id": 1795582270125.8748,
+     "text": "I",
+     "img": "meshuggah-i",
+     "note": "Doesn't really count as a 'song,' but there's so much I love in here, particularly from the buildup to the solo / in the middle til before it slows down at the end. Sometimes it does go on a bit too long though. Iconic chaotic solo",
+     "tier": "A"
+    },
+    {
+     "id": 1795581990215.6514,
+     "text": "The Faultless",
+     "img": "meshuggah-immutable",
+     "tier": "B",
+     "note": "Don't like the panning vocals, but a very interesting riff and a phenomenal solo that is undertoned by the ripping ascending guitar. I just wish the guitar tones for Immutable in general were more defined. "
+    },
+    {
+     "id": 1795582004489.219,
+     "text": "Monstrocity",
+     "img": "meshuggah-the-violent-sleep-of-reason",
+     "tier": "B",
+     "note": "Very fun solo, greatly enjoy the intro. Climbing riff is interesting, but a bit hard to follow as you listen. "
+    },
+    {
+     "id": 1795582022178.9438,
+     "text": "Sane",
+     "img": "chaosphere",
+     "tier": "C",
+     "note": "I hate that panning shit they do in the middle. Melody just seems kinda all over the place, same with the solo. But I do very much like the riff after the \"sane me\" part. "
+    },
+    {
+     "id": 1795582036070.2705,
+     "text": "The Mouth Licking What You've Bled",
+     "tier": "B",
+     "img": "chaosphere",
+     "note": "Less chaotic than Concatenation, but I like how it concentrates in the solo. I do kind of lose interest once it slows down though. Like the bite of the bit with the high drone"
+    },
+    {
+     "id": 1795582230971.0332,
+     "text": "Glints Collide",
+     "tier": "B",
+     "img": "nothing",
+     "note": "Neat solo, kinda strange riff but I can still get behind it"
+    },
+    {
+     "id": 1795582236073.255,
+     "text": "Behind the Sun",
+     "img": "meshuggah-koloss",
+     "tier": "C",
+     "note": "Too slow for the large part. I very much enjoy the second half though, especially towards the end. Just kinda got ruined by it always coming on in my car by default for some reason. "
+    },
+    {
+     "id": 1795582242678.7703,
+     "text": "Born In Dissonance",
+     "img": "meshuggah-the-violent-sleep-of-reason",
+     "tier": "B",
+     "note": "Like what the riff has going for it, powerful ending, but the main portion of the song doesn't have enough power behind it. Interesting solo that is more reigned in than usual"
+    },
+    {
+     "id": 1795582250656.8672,
+     "text": "Corridor of Chameleons",
+     "tier": "A",
+     "note": "Insane breakdown, love the fast punchy guitar in the beginning, but it can be a bit repetitive. Like the structure of the solo in this one. ",
+     "img": "chaosphere"
+    },
+    {
+     "id": 1795582261421.2031,
+     "text": "I am Colossus",
+     "tier": "B",
+     "img": "meshuggah-koloss",
+     "note": "Too slow for the most part, but I do like that one ascending triplet rhythm that reminds me of like a beta monstrocity "
+    },
+    {
+     "id": 1795582265229.7312,
+     "text": "Neurotica",
+     "tier": "C",
+     "img": "chaosphere",
+     "note": "Very much enjoy the fast vocals and biting guitar underneath it, but the intro riff feels oddly light hearted for the album. Terrible solo though. Ending is stupid"
+    },
+    {
+     "id": 1795582389236.6152,
+     "text": "Rational Gaze",
+     "img": "nothing",
+     "tier": "C",
+     "note": "Really not crazy about it like everyone else. Do not like the solo, the main riff misses out on that kind of fuzz buzz that I like in other songs. Too much empty guitar space. I do like the parts though where there's a higher set of notes to overlay the guitar punch"
+    },
+    {
+     "id": 1795582982514.7937,
+     "text": "Stengah",
+     "img": "nothing"
+    },
+    {
+     "id": 1795583009545.8936,
+     "text": "Concatenation (Remix)",
+     "img": "meshuggah-rare-trax",
+     "tier": "C",
+     "note": "Brings new life to the track, but also takes a lot of its old life out. The solo in this one is no where near as good as how the original comes off"
+    },
+    {
+     "id": 1795583056137.4263,
+     "text": "Elastic",
+     "img": "chaosphere",
+     "tier": "D",
+     "conf": 85,
+     "note": "The part that is actually MUSIC is very foreboding and powerful. Solo is quirky on its own, but takes away from the rest of the track. Once you get to the weird slidy bit though, I cannot listen to it anymore as a track. Just conceptually I love the idea of this being the last song every played in the universe, and everything just explodes at the end with all the tracks playing at once. But it's more a meme than a song. "
     }
    ]
   }
