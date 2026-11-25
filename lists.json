@@ -1,0 +1,2893 @@
+{
+ "version": 1,
+ "lists": [
+  {
+   "id": "restaurants",
+   "name": "Restaurants",
+   "items": [
+    {
+     "id": 1,
+     "text": "Fogo De Chao",
+     "tier": "SSS",
+     "conf": 88,
+     "note": "Stellar experience. No wait time, incredible steak, never left hungry, great sides and salad bar"
+    },
+    {
+     "id": 2,
+     "text": "Kazia Rae's",
+     "tier": "SSS",
+     "conf": 87,
+     "note": "One of my favorite burgers ever, awesome mac n cheese, loved making bubble tea with Mom's old boss. Very sad it's gone"
+    },
+    {
+     "id": 3,
+     "text": "Pic-A-Lilli Inn",
+     "tier": "SSS",
+     "conf": 79,
+     "note": "Best wings, period. Super juicy and flavorful Reuben burger. Love the street corn bites / other apps. Only thing I dislike is their fries."
+    },
+    {
+     "id": 4,
+     "text": "The Feed Mill Eatery",
+     "tier": "SSS",
+     "conf": 80,
+     "note": "Need to go there more to know for sure, but incredible cheesesteak and nachos. A bit expensive, but I love the variety. Nicky Santoro sandwich with hot pepper aioli was amazing"
+    },
+    {
+     "id": 5,
+     "text": "City Steaks",
+     "tier": "SSS",
+     "conf": 65,
+     "note": "Route 130 is a treat of a cheesesteak. Like their corn nuggets and raspberry lime rickey soda a lot. Lovely interior / environment"
+    },
+    {
+     "id": 6,
+     "text": "Flemmings",
+     "tier": "SSS",
+     "conf": 36,
+     "note": "Wonderful steak, potatoes, sweet corn brulee, and brussels sprouts"
+    },
+    {
+     "id": 7,
+     "text": "Curtin's Wharf",
+     "tier": "SS",
+     "conf": 73,
+     "note": "One of my favorite lemony chicken dishes ever. Love sitting outside / environment. Street corn dip is wonderful"
+    },
+    {
+     "id": 8,
+     "text": "Mikado (Hibachi)",
+     "tier": "SS",
+     "conf": 43,
+     "note": "This goes for any hibachi place, but it's objectively the best experience when I want chinese food. Best freshest noodles / fried rice, tender steak and chicken. Only feels right for a special occasion though."
+    },
+    {
+     "id": 9,
+     "text": "Craftsman Row Saloon",
+     "tier": "SS",
+     "conf": 37,
+     "note": "One of the best sandwiches I ever had: Hot honey chicken mac n cheese sandwich. Crazy $19 peanut butter milkshake was a sight to behold. Decorated all over the place that makes you feel special"
+    },
+    {
+     "id": 10,
+     "text": "Mezzeh",
+     "tier": "S",
+     "conf": 37,
+     "note": "Wider variety than Cava, more convenient, and better tasting drinks. Flavorful Mediterranean wraps, makes me feel healthier"
+    },
+    {
+     "id": 11,
+     "text": "Cava",
+     "tier": "S",
+     "conf": 42,
+     "note": "Wonderful mediterranean food, makes me feel healthy. Memories with coworkers. Usually get a bowl. Needs more sauce, but otherwise great"
+    },
+    {
+     "id": 12,
+     "text": "B-Uno's",
+     "tier": "S",
+     "conf": 28,
+     "note": "One of the best cheesesteaks ever, glad it comes with tots. I've liked many other dishes there too, but am sad they removed some of my favorites."
+    },
+    {
+     "id": 13,
+     "text": "White Dotte",
+     "tier": "S",
+     "conf": 70,
+     "note": "Awesome garlic bread cheesesteak, great for ice cream, love the vibe. Sad it's seasonal / they don't always have the ice cream flavor I want"
+    },
+    {
+     "id": 14,
+     "text": "Lilo's",
+     "tier": "S",
+     "conf": 38,
+     "note": "Incredibly tasty cheesesteak, but a bit messy. This introduced me to cooper sharp cheese and I love em for it. Can do without the seeded roll though"
+    },
+    {
+     "id": 15,
+     "text": "The Rookery",
+     "tier": "S",
+     "conf": 60,
+     "note": "Had it on my road trip. Love the environment, sharpie on the walls. Very tasty sandwiches and milkshakes, me and my friend had half of each other's. Hot pig & Fig and \"king bee\" wrap. That pimento cheese was something else"
+    },
+    {
+     "id": 16,
+     "text": "Jason's Deli",
+     "tier": "S",
+     "conf": 58,
+     "note": "Went there on my road trip, need to go there again. Super tasty broccoli cheddar soup, Deli cowboy sandwich was loaded with juicy brisket, and FREE SOFT SERVE with every meal!"
+    },
+    {
+     "id": 17,
+     "text": "Friendly's",
+     "tier": "S",
+     "conf": 82,
+     "note": "Always a treat. Love the honey bbq chicken super melt + other unhealthy but inventive foods, always finishing with ice cream. Sometimes slow though, mom's food didn't look great. But I still have fun"
+    },
+    {
+     "id": 18,
+     "text": "Old Town Pub Bordentown",
+     "tier": "S",
+     "conf": 70,
+     "note": "Pork roll mac n cheese is great and cheesy. Short rib sandwich I had the first time was awesome, but they didn't have it last time I went. Got the Delmonico which had steak and long hots on it, which wasn't the best but still pretty good. Nice vibe and decorations"
+    },
+    {
+     "id": 19,
+     "text": "Iffy's Hot Chicken",
+     "tier": "S",
+     "conf": 61,
+     "note": "Favorite hot chicken place, lemon pepper is a nice addon"
+    },
+    {
+     "id": 20,
+     "text": "Asad's Hot Chicken",
+     "tier": "S",
+     "conf": 55,
+     "note": "Second favorite hot chicken place, more variety, less punchy spice. Kickass peanut butter shake, but it's real expensive."
+    },
+    {
+     "id": 21,
+     "text": "Five Guy's",
+     "tier": "S",
+     "conf": 73,
+     "note": "Super meaty burgers, tasty fries and shakes, but often too expensive to justify. Also like eating peanuts while I wait"
+    },
+    {
+     "id": 22,
+     "text": "Outback Steakhouse",
+     "tier": "S",
+     "conf": 71,
+     "note": "Great to meet up with friends. Steak sandwich was phenomenal, liked their cucumber refresher and getting a bloomin' onion. Lovely sides"
+    },
+    {
+     "id": 23,
+     "text": "Zaxby's",
+     "tier": "S",
+     "conf": 31,
+     "note": "Had it for the first time on my road trip, instantly hooked. Super juicy crispy chicken with a lovely lemon pepper seasoning to go with it"
+    },
+    {
+     "id": 24,
+     "text": "Raising Cane's",
+     "tier": "S",
+     "conf": 85,
+     "note": "Always love going here, a quick little chicken finger meal with Texas toast and yummy sauce. Good memories of going to the turtle lake with Sydney after getting these. Love their fries"
+    },
+    {
+     "id": 25,
+     "text": "Illiano's",
+     "tier": "S",
+     "conf": 36,
+     "note": "Need to go there more. One of the best pasta dishes ever for restaurant week, but that was just for then."
+    },
+    {
+     "id": 26,
+     "text": "La Galleria",
+     "tier": "S",
+     "conf": 92,
+     "note": "Vodka rig pizza, general tso's pizza, short rib ravioli. Not all dinners are the best there, but they have some major hits"
+    },
+    {
+     "id": 27,
+     "text": "Crust N' Fire",
+     "tier": "S",
+     "conf": 79,
+     "note": "Need to go there more to confirm, but that rustic slice with pepperoni and ricotta might be one of my new favorite pizzas. White pie also really tasty, and also raspberry lime rickey."
+    },
+    {
+     "id": 28,
+     "text": "Holy Tomato",
+     "tier": "S",
+     "conf": 75,
+     "note": "Loved that one time we went. Great atmosphere, lots of tasty pizzas. I kept asking who wanted what slices to make sure I wouldn't eat all the ones that others wanted. I need that pickle pizza again."
+    },
+    {
+     "id": 29,
+     "text": "Mistral",
+     "tier": "S",
+     "conf": 43,
+     "note": "Incredible butternut squash beignets and chicken, expensive special occasion"
+    },
+    {
+     "id": 30,
+     "text": "Mediterra Restaurant & Taverna",
+     "tier": "S",
+     "conf": 66,
+     "note": "Incredible flavorful chicken, licked my plate clean and wanted more.  expensive special occasion"
+    },
+    {
+     "id": 31,
+     "text": "Villa Russo",
+     "tier": "S",
+     "conf": 82,
+     "note": "Nice soft bread with olive oil, tasty garlic knots, roasted Peppers were nice with the bread, Surprisingly fresh salad with roast Peppers and Russian dressing, lovely grandma pizza, excellent chicken / veal piccata, and a nice little cannoli to finish. Next time we need to get the stuffed long hots because we forgot to order them"
+    },
+    {
+     "id": 32,
+     "text": "Donkey's Steaks",
+     "tier": "S",
+     "conf": 67,
+     "note": "Very unique take on a cheesesteak that is very satisfying to eat. Glad there's a version without poppyseeds, but I do still like them from time to time."
+    },
+    {
+     "id": 33,
+     "text": "Maggie's Tavern",
+     "tier": "S",
+     "conf": 34,
+     "note": "Super savory short rib melt sandwich and a nice outdoor deck to sit on. Shame it's so far in north Jersey"
+    },
+    {
+     "id": 34,
+     "text": "Tiga's",
+     "tier": "S",
+     "conf": 72,
+     "note": "Super soft and cheesy boli calzone that I like more than pepperoni bread. Pizza is good, chicken parm sando is great"
+    },
+    {
+     "id": 35,
+     "line": true,
+     "label": "Restaurants I remember having an \"I'm so happy right now\" moment",
+     "dir": "up"
+    },
+    {
+     "id": 36,
+     "text": "The Chicken Coop",
+     "tier": "S",
+     "conf": 31,
+     "note": "Slow, but worth the wait for such a juicy chicken sandwich"
+    },
+    {
+     "id": 37,
+     "text": "Buffalo Wild Wings",
+     "tier": "S",
+     "conf": 78,
+     "note": "Great spot to go with the boys, I really like their lemon pepper and garlic parm wings. Glad they have so many sauces to choose from that you can mix and match. Also they have a really meaty burger and super tasty potato wedges. Love their BOGO boneless wing thursdays"
+    },
+    {
+     "id": 38,
+     "text": "Stoltzfus BBQ (Amish Market)",
+     "tier": "S",
+     "conf": 78,
+     "note": "A ton of food for the price, kick ass ribs and mac n cheese. Love going there with Bette"
+    },
+    {
+     "id": 39,
+     "text": "Freddy's",
+     "tier": "S",
+     "conf": 56,
+     "note": "Lovely fast food burger joint. A little greasy, but I like their options and the vibe"
+    },
+    {
+     "id": 40,
+     "text": "Manco & Manco's",
+     "tier": "S",
+     "conf": 67,
+     "note": "Expensive, but tasty white pie. Red pie is just pretty good."
+    },
+    {
+     "id": 41,
+     "text": "Femmina Italian Grill",
+     "tier": "S",
+     "conf": 3,
+     "note": "Amazing lemony chicken, but think it was a special order. Not sure if they still have it."
+    },
+    {
+     "id": 42,
+     "text": "Chili's",
+     "tier": "A",
+     "conf": 100,
+     "note": "I want my baby back baby back baby back ribsssss. Many lovely meals there with friends, only a couple things I didn't care for like the sauced mozarella sticks and their white cheddar mac."
+    },
+    {
+     "id": 43,
+     "text": "Chipotle",
+     "tier": "A",
+     "conf": 100,
+     "note": "My most visited place by far. Great flavors and always play songs I end up shazaming, but very inconsistent. It can be real cheap and bigger than you expected or really expensive and smaller than you expected. All depends on the day, and what seasonal items are out."
+    },
+    {
+     "id": 44,
+     "text": "Zinc Cafe",
+     "tier": "A",
+     "conf": 60,
+     "note": "LOVE their roast beef sandwich and their crispy shoestring fries, but wasn't super happy with the breakfast sandwich I got that one time. Also they had a great corn soup"
+    },
+    {
+     "id": 45,
+     "text": "Jade Island",
+     "tier": "A",
+     "conf": 82,
+     "note": "My favorite place for chinese food not counting hibachi. They got the best sweet & sour chicken and lo mein."
+    },
+    {
+     "id": 46,
+     "text": "The Cheesecake Factory",
+     "tier": "A",
+     "conf": 80,
+     "note": "Chipotle chicken pasta is great, love getting the cheesesteak eggrolls and a slice of cheesecake to finish the night"
+    },
+    {
+     "id": 47,
+     "text": "Pete's Pizza",
+     "tier": "A",
+     "conf": 61,
+     "note": "One of the few tomato pies I really enjoy. The bread is nice and soft and there's still a cheesiness to it. A bit messy, but I like it."
+    },
+    {
+     "id": 48,
+     "text": "Brickhouse Tavern",
+     "tier": "A",
+     "conf": 36,
+     "note": "Real good burger. Coworkers commented on how fast I finished it. Need to go there more"
+    },
+    {
+     "id": 49,
+     "text": "Red Robin",
+     "tier": "A",
+     "conf": 79,
+     "note": "Lovely spot for friends, I enjoy getting a big beefy burger and the pineapple jalapeno wings"
+    },
+    {
+     "id": 50,
+     "text": "Sfizio",
+     "tier": "A",
+     "conf": 33,
+     "note": "Under the new owners, the fried chicken is incredible. Calzone was just okay though."
+    },
+    {
+     "id": 51,
+     "text": "Burlington Diner (Formerly Amy's)",
+     "tier": "A",
+     "conf": 30,
+     "note": "Wide variety of options, many including a number of breakfast meats I like. Lovely hot chocolate, fun to go for breakfast, but unsure how it will do under new ownership"
+    },
+    {
+     "id": 52,
+     "text": "Wisdom Diner",
+     "tier": "A",
+     "conf": 36,
+     "note": "Pigs in a blanket are awesome. Haven't had too much else there though, at least not in a long while."
+    },
+    {
+     "id": 53,
+     "text": "Marblehead Chowder House",
+     "tier": "A",
+     "conf": 55,
+     "note": "Had some very nice chicken there, also like how they have a little candy chest at the end. Not too much on the menu I would eat though."
+    },
+    {
+     "id": 54,
+     "text": "Meatheadz Cheesesteaks",
+     "tier": "A",
+     "conf": 44,
+     "note": "Meat was not the best quality, but still pretty good. I like that they have a pork roll cheesesteak option"
+    },
+    {
+     "id": 55,
+     "text": "McKenna's Place",
+     "tier": "A",
+     "conf": 20,
+     "note": "Went there on my road trip. Absolutely went overboard on the food, massive plate of buffalo chicken mac and cheese, corn nuggets, fried calamari, and a starter salad. All super tasty though"
+    },
+    {
+     "id": 56,
+     "text": "Son Of A Butcher",
+     "tier": "A",
+     "conf": 33,
+     "note": "Had some very inventive sliders, this is the place I went to when I was in Texas"
+    },
+    {
+     "id": 57,
+     "text": "Whataburger",
+     "tier": "A",
+     "conf": 37,
+     "note": "Only had it once when in Texas. Had a sandwich like the one I like from friendly's. Would like more"
+    },
+    {
+     "id": 58,
+     "text": "Chic-Fil-A",
+     "tier": "A",
+     "conf": 70,
+     "note": "Solid lunch spot for a chicken sandwich, very cheesy mac n cheese which is fun to put on my sandwich"
+    },
+    {
+     "id": 59,
+     "text": "BB.Q Chicken",
+     "tier": "A",
+     "conf": 65,
+     "note": "A bit of a wait and sometimes the chicken feels \"wet\" under the breading, but tastes good and has crispy skin. I like the cheesling powder"
+    },
+    {
+     "id": 60,
+     "text": "Mutiny BBQ Company",
+     "tier": "A",
+     "conf": 29,
+     "note": "Only been there once, tasty BBQ, less pricy than More than Q"
+    },
+    {
+     "id": 61,
+     "text": "Ma & Pa's Tex-Mex BBQ",
+     "tier": "A",
+     "conf": 36,
+     "note": "Lovely little joint for mexican, I enjoyed eating Dad's leftovers"
+    },
+    {
+     "id": 62,
+     "text": "More than Q",
+     "tier": "A",
+     "conf": 63,
+     "note": "I would only get the chili lime chicken thighs which were super flavorful and cheap compared to the other stuff, but otherwise it was too expensive."
+    },
+    {
+     "id": 63,
+     "text": "Cacia's Bakery",
+     "tier": "A",
+     "conf": 48,
+     "note": "HUGE sandwiches, treat of a pizza slice"
+    },
+    {
+     "id": 64,
+     "text": "Palermo's",
+     "tier": "A",
+     "conf": 27,
+     "note": "Great chicken piccata"
+    },
+    {
+     "id": 65,
+     "text": "John & Molly's",
+     "tier": "A",
+     "conf": 63,
+     "note": "Huge sandwiches, not the most flavorful, but a nice little spot"
+    },
+    {
+     "id": 66,
+     "text": "Don Pablo's",
+     "tier": "A",
+     "conf": 15,
+     "note": "I miss their corn cake so often. Think the actual tacos and main meal was good as well"
+    },
+    {
+     "id": 67,
+     "text": "Prospector's",
+     "tier": "A",
+     "conf": 15,
+     "note": "Don't remember too much about what I got, but I remember liking it"
+    },
+    {
+     "id": 68,
+     "text": "Kate & Al's Pizza",
+     "tier": "A",
+     "conf": 13,
+     "note": "I dunno why we don't go here more often. I'd say it's similar to Pete's but I can't remember"
+    },
+    {
+     "id": 69,
+     "text": "Devil's Alley BBQ",
+     "tier": "A",
+     "conf": 34,
+     "note": "Only went once. Had a massive tasty BBQ spread, though it was pricy."
+    },
+    {
+     "id": 70,
+     "text": "Wingstop",
+     "tier": "A",
+     "conf": 55,
+     "note": "Took forever the first time, much faster the second time. The wings were crispy and tasted nice. Lemon pepper chicken sandwich w/ ranch was great. Sour patch kids chicken honestly wasn't terrible"
+    },
+    {
+     "id": 71,
+     "text": "Bricco",
+     "tier": "A",
+     "conf": 42,
+     "note": "Tasty short rib pizza, don't remember how the other pizza was"
+    },
+    {
+     "id": 72,
+     "text": "Labebe",
+     "tier": "A",
+     "conf": 55,
+     "note": "Short Rib Waffle Cones were very inventive and tasty"
+    },
+    {
+     "id": 73,
+     "text": "Parc",
+     "tier": "A",
+     "conf": 12,
+     "note": "Tasty burger and shoestring fries, haven't been there enough to know more"
+    },
+    {
+     "id": 74,
+     "text": "Hella's Restaurant and Bakery",
+     "tier": "A",
+     "conf": 65,
+     "note": "Went here on my road trip. Very vibrant interior with a sea theme, super tasty crispy cheese appetizer, also some nice lamb."
+    },
+    {
+     "id": 75,
+     "text": "Hoagie Haven",
+     "tier": "B",
+     "conf": 47,
+     "note": "Very inventive and tasty hoagies, they just need more sauce"
+    },
+    {
+     "id": 76,
+     "text": "Pandora Diner",
+     "tier": "B",
+     "conf": 74,
+     "note": "Really nice pastrami burger, great diner to go to as a default"
+    },
+    {
+     "id": 77,
+     "text": "Culver's",
+     "tier": "B",
+     "conf": 36,
+     "note": "Really enjoyed their burger and cheese curds, need to go there more"
+    },
+    {
+     "id": 78,
+     "text": "Union House Tavern",
+     "tier": "B",
+     "conf": 46,
+     "note": "Tasty street corn dip, meatloaf was mid."
+    },
+    {
+     "id": 79,
+     "text": "Holy Burger",
+     "tier": "B",
+     "conf": 16,
+     "note": "Tasty burger and MASSIVE amount of chicken bites for a crazy cheap price, but didn't feel so good after eating there. Not sure if I should blame the chicken. Need to try again."
+    },
+    {
+     "id": 80,
+     "text": "China Wok",
+     "tier": "B",
+     "conf": 75,
+     "note": "I get it more for convenience over flavor, but pretty solid food. only the chow mein was gross. Everything else is pretty good"
+    },
+    {
+     "id": 81,
+     "text": "Afghan Kabob",
+     "tier": "B",
+     "conf": 37,
+     "note": "Tastes good, but too expensive for what it is. Most halal food trucks in philly were on par. A proper restaurant wouldn't \"run out\" of food like they do."
+    },
+    {
+     "id": 82,
+     "text": "Mission Barbecue",
+     "tier": "B",
+     "conf": 76,
+     "note": "Occasionally hits, not always. Sometimes I'm left hungry"
+    },
+    {
+     "id": 83,
+     "text": "Wendy's",
+     "tier": "B",
+     "conf": 63,
+     "note": "Favorite of the \"long standing\" fast food burger joints, comes in clutch with 50 nuggets."
+    },
+    {
+     "id": 84,
+     "text": "Zac's Burger",
+     "tier": "B",
+     "conf": 44,
+     "note": "Slightly above average burger, I just don't feel like going there as much compared to chipotle"
+    },
+    {
+     "id": 85,
+     "text": "Town and Country Diner",
+     "tier": "B",
+     "conf": 39,
+     "note": "Had some tasty soups there and nice burgers"
+    },
+    {
+     "id": 86,
+     "text": "CM Chicken",
+     "tier": "B",
+     "conf": 57,
+     "note": "Solid chicken, but pricy."
+    },
+    {
+     "id": 87,
+     "text": "Texas Roadhouse",
+     "tier": "B",
+     "conf": 12,
+     "note": "I remember liking the rolls and having a good time, not much else though. Need to go there more"
+    },
+    {
+     "id": 88,
+     "text": "Taco Bell",
+     "tier": "B",
+     "conf": 77,
+     "note": "Many different things I'll get from them, but they are charging way too much for some of them. Also really mad at them for discontinuing my favorite item for a SECOND time after only having it back for a month."
+    },
+    {
+     "id": 89,
+     "text": "Papa John's",
+     "tier": "B",
+     "conf": 74,
+     "note": "favorite fast food pizza place, but only good if you get no toppings. Kinda getting pricy."
+    },
+    {
+     "id": 90,
+     "text": "Popeye's",
+     "tier": "B",
+     "conf": 60,
+     "note": "Solid crispy chicken for cheap, nice mac n cheese, but other sides are not great."
+    },
+    {
+     "id": 91,
+     "text": "Best of the Wurst",
+     "tier": "B",
+     "conf": 76,
+     "note": "Some REALLY tasty items on there, like the kartoffelpuffer and the german mac n cheese, but the sausages aren't anything crazy. I do like sitting outside on the deck, but inside it's super hot and there were cob webs under the table. If they're gonna do karaoke again, they need to take down the speakers."
+    },
+    {
+     "id": 92,
+     "text": "Jobstown Pizza",
+     "tier": "B",
+     "conf": 16,
+     "note": "Your average slice / pizza place"
+    },
+    {
+     "id": 93,
+     "text": "Piccolissimo",
+     "tier": "B",
+     "conf": 64,
+     "note": "I like the variety of pizzas they got, but not the best quality"
+    },
+    {
+     "id": 94,
+     "text": "Mr. Bill's",
+     "tier": "B",
+     "conf": 44,
+     "note": "Very nice burger from there, but the fries are greasy and mushy. Pop got mad at them for how much it cost and the fact that he ordered the wrong thing."
+    },
+    {
+     "id": 95,
+     "text": "Sabrina's Cafe",
+     "tier": "B",
+     "conf": 71,
+     "note": "Some interesting choices on the menu, but the place feels cramped and they don't bring a ton of flavor. Decent food, just not 'great'."
+    },
+    {
+     "id": 96,
+     "text": "Columbus Deli",
+     "tier": "B",
+     "conf": 84,
+     "note": "I'll get a grilled cheese n fries with pork roll in it. Comfort food that reminds me of when I was younger, but getting more expensive and is kinda too greasy at times"
+    },
+    {
+     "id": 97,
+     "text": "New Deck Tavern",
+     "tier": "B",
+     "conf": 21,
+     "note": "Average burger, too cramped to sit inside so you gotta order it out"
+    },
+    {
+     "id": 98,
+     "text": "Local Smoke BBQ",
+     "tier": "B",
+     "conf": 44,
+     "note": "Nice tasting BBQ, but I prefer mission"
+    },
+    {
+     "id": 99,
+     "text": "Aljohn's Pizza",
+     "tier": "B",
+     "conf": 58,
+     "note": "Tasty pizza we get for work events"
+    },
+    {
+     "id": 100,
+     "text": "Ed's Buffalo Wings & Pizza",
+     "tier": "B",
+     "conf": 78,
+     "note": "Liked their boom boom pizza a lot, but not a very sanitary place. Also their wings sucked."
+    },
+    {
+     "id": 101,
+     "text": "Pizza Village",
+     "tier": "B",
+     "conf": 67,
+     "note": "Your average little pizza spot. Plain slice is fine, vodka rigatoni pizza tastes good, french fry pizza was eh. Crust is a bit brittle"
+    },
+    {
+     "id": 102,
+     "text": "Europa",
+     "tier": "B",
+     "conf": 75,
+     "note": "used to like them much more than I do now. Around the same as bella mia"
+    },
+    {
+     "id": 103,
+     "text": "Old Nelson Food Market",
+     "tier": "B",
+     "conf": 75,
+     "note": "Solid sandwiches, like the options. Also nice and small, not overwhelming, but a little more expensive than I want it to be"
+    },
+    {
+     "id": 104,
+     "text": "Terakawa Ramen",
+     "tier": "B",
+     "conf": 44,
+     "note": "Massive bowls of ramen that are hard to finish, but tasty. Not sure if it's worth the price at times"
+    },
+    {
+     "id": 105,
+     "text": "Bella Mia",
+     "tier": "B",
+     "conf": 77,
+     "note": "Sausage pizza they made one time was awesome. Other pizzas are just alright most of the time."
+    },
+    {
+     "id": 106,
+     "text": "Domino's",
+     "tier": "B",
+     "conf": 39,
+     "note": "Less sweet than Papa John's, but about the same"
+    },
+    {
+     "id": 107,
+     "text": "Garbanzo Mediterranean Fresh",
+     "tier": "B",
+     "conf": 38,
+     "note": "Like Cava but less fresh."
+    },
+    {
+     "id": 108,
+     "text": "Peter Luger's",
+     "tier": "B",
+     "conf": 75,
+     "note": "It's good steak and food, but the whole experience feels weird. The chocolate coins at the end are strange, and it feels way too expensive for what you get. Also the place is always super cramped inside."
+    },
+    {
+     "id": 109,
+     "text": "Cook Out",
+     "tier": "B",
+     "conf": 34,
+     "note": "Only went there once on my trip. Nice little burger and hush puppies, but I really wish I had time to try one of their many shakes."
+    },
+    {
+     "id": 110,
+     "text": "Stage House Tavern",
+     "tier": "B",
+     "note": "Steak served on a wood plank - weird. Also pretty raw for medium rare. Cauliflower wings were okay. Great apple butter cheesecake the first time we went though."
+    },
+    {
+     "id": 111,
+     "text": "Gold Garden Chinese",
+     "tier": "B",
+     "conf": 23,
+     "note": "Average chinese place"
+    },
+    {
+     "id": 112,
+     "text": "Panera",
+     "tier": "B",
+     "conf": 63,
+     "note": "I like their mac and cheese and they had a good butternut squash soup, but I never really feel compelled to go there. Did like getting a cinnamon roll when I was little though"
+    },
+    {
+     "id": 113,
+     "text": "Tommy's Tavern + Tap",
+     "tier": "B",
+     "conf": 3,
+     "note": "Alright, don't remember too much, just that I went there with mom"
+    },
+    {
+     "id": 114,
+     "text": "Rustic Grille",
+     "tier": "B",
+     "conf": 44,
+     "note": "Your average tasty slice of pizza. But why do they need to seat you? Took longer than it should have."
+    },
+    {
+     "id": 115,
+     "text": "Luigi's Pizza Fresca",
+     "tier": "B",
+     "conf": 55,
+     "note": "I liked their white pie, and have fond memories going there after soccer when I was little. Sad it's gone."
+    },
+    {
+     "id": 116,
+     "text": "B2 Bistro",
+     "tier": "B",
+     "conf": 27,
+     "note": "I remember it being good, better than Allstar or Jimmy's when it was those"
+    },
+    {
+     "id": 117,
+     "text": "Golden Dawn Diner",
+     "tier": "B",
+     "conf": 39,
+     "note": "Short rib ravioli was surprisingly nice. I could tell it's not a high quality place though. Likely need to try more to confirm. I remember mom wasn't too happy about it."
+    },
+    {
+     "id": 118,
+     "text": "LongHorn Steakhouse",
+     "tier": "B",
+     "conf": 36,
+     "note": "Steak was kinda average. Not sure too much about other stuff"
+    },
+    {
+     "id": 119,
+     "text": "Moe's",
+     "tier": "B",
+     "conf": 61,
+     "note": "better than the other Qdoba adjacent places because they have ground beef as an option"
+    },
+    {
+     "id": 120,
+     "text": "Arby's",
+     "tier": "B",
+     "conf": 67,
+     "note": "I've liked some of their limited time items like their wings and cheesesteak, but the roast beef is just okay."
+    },
+    {
+     "id": 121,
+     "text": "Boston Market",
+     "tier": "B",
+     "conf": 27,
+     "note": "I like the place conceptually. Not the best chicken in the world, but it tastes good enough and they give you a good bit of sides to choose from."
+    },
+    {
+     "id": 122,
+     "text": "Gervasio's Italian Family Restaurant",
+     "tier": "B",
+     "conf": 32,
+     "note": "Pizza isn't the best, but I've had some alright dinners there."
+    },
+    {
+     "id": 123,
+     "text": "In-n-out",
+     "tier": "B",
+     "conf": 15,
+     "note": "I haven't had it too much but it just kinda seems like your average fast food burger place to me."
+    },
+    {
+     "id": 124,
+     "text": "Panchero's",
+     "tier": "B",
+     "conf": 26,
+     "note": "Similar to Qdoba, a little better"
+    },
+    {
+     "id": 125,
+     "text": "Qdoba",
+     "tier": "B",
+     "conf": 30,
+     "note": "Very middle of the road for these kind of places. No option for ground beef."
+    },
+    {
+     "id": 126,
+     "text": "Bubbakoo's",
+     "tier": "B",
+     "conf": 25,
+     "note": "The one time we did get to go it was alright, although I think getting sweet chili sauce was a mistake. I do like that they have a ton of options though."
+    },
+    {
+     "id": 127,
+     "text": "The Continental",
+     "tier": "B",
+     "conf": 32,
+     "note": "Was cool when cheesesteak eggrolls were a new thing, but that's about all I remember enjoying from the place. I've always wanted to sit in the middle area but never get to."
+    },
+    {
+     "id": 128,
+     "line": true,
+     "label": "I've had an actual problem with the food I ate here (for the most part)",
+     "dir": "down"
+    },
+    {
+     "id": 129,
+     "text": "Dory's Cafe",
+     "tier": "C",
+     "conf": 40,
+     "note": "I like that they got Laziza. Still haven't tried this place too much so the rank may improve, but the shwarma was decent, if just a bit dry. There was some weird pickled thing that came with it though that tasted nasty."
+    },
+    {
+     "id": 130,
+     "text": "Madras Dosa Company",
+     "tier": "C",
+     "conf": 59,
+     "note": "The dosa tasted good, but those donut things I got were very strange. Also the guy behind the counter spilled cheese everywhere when plating my dosa because he put it on upside down."
+    },
+    {
+     "id": 131,
+     "text": "Panda Express",
+     "tier": "C",
+     "conf": 16,
+     "note": "Food is chewier than I want Chinese food to be, but flavor is fine"
+    },
+    {
+     "id": 132,
+     "text": "P.F Chang's",
+     "tier": "C",
+     "conf": 4,
+     "note": "Long time since I've been there, I think it was alright, but that's it. Feels like it wants to be higher quality than it is"
+    },
+    {
+     "id": 133,
+     "text": "Wawa",
+     "tier": "C",
+     "conf": 92,
+     "note": "My love for Wawa has faded over time. Pure middle of the road sustenance. I've had some really good experiences like getting the Gobbler and some bad experiences like when they gave me food poisoning. I will eat it as long as it's still not too pricy, but the price is rising."
+    },
+    {
+     "id": 134,
+     "text": "Briglia's",
+     "tier": "C",
+     "conf": 40,
+     "note": "Average Italian place, no strong compulsion to go there other than being with family. Always cramped getting in."
+    },
+    {
+     "id": 135,
+     "text": "El Mariachi Loco",
+     "tier": "C",
+     "conf": 66,
+     "note": "Passable mexican food, but kinda slow. They don't do proper elote"
+    },
+    {
+     "id": 136,
+     "text": "Toscano",
+     "tier": "C",
+     "conf": 76,
+     "note": "The pure definition of \"too much.\" Dry aged steak is an interesting flavor, but buy in large everything is just too rich and hard to stomach"
+    },
+    {
+     "id": 137,
+     "text": "Deerpath",
+     "tier": "C",
+     "conf": 40,
+     "note": "Burger was decent, but their \"peanut butter\" shake was basically just vanilla and that kinda upset me."
+    },
+    {
+     "id": 138,
+     "text": "Denny's",
+     "tier": "C",
+     "conf": 55,
+     "note": "Had some good memories from Denny's, but mostly getting mac n cheese with goldfish as a kid. Sometimes really slow service. Nice cinnamon hot cocoa"
+    },
+    {
+     "id": 139,
+     "text": "Villa Mannino",
+     "tier": "C",
+     "conf": 64,
+     "note": "Alright slices, had some pesto pasta with sausage that disappointed."
+    },
+    {
+     "id": 140,
+     "text": "Pizza Hut",
+     "tier": "C",
+     "conf": 55,
+     "note": "Just an average pizza, nothing really special. I remember really disliking it before, but the last time I had it there was nothing wrong with it. Points for seasoned crust. The Pizza Box smelled like ass though."
+    },
+    {
+     "id": 141,
+     "text": "Nimbu",
+     "tier": "C",
+     "conf": 71,
+     "note": "Was interesting to try, but the water is gross and all the food makes you thirsty from all the seasonings on it. No dishes you actually think of when it comes to \"indian food\""
+    },
+    {
+     "id": 142,
+     "text": "KFC",
+     "tier": "C",
+     "conf": 38,
+     "note": "Biscuits are nice, but almost too buttery. Crispy chicken that's not too chickeny. Alright, but feels like I'm eating a lot of grease"
+    },
+    {
+     "id": 143,
+     "text": "The Habit",
+     "tier": "C",
+     "conf": 73,
+     "note": "Like a bit better shake shack, but still just okay. Burger was good, but felt small like McDonalds. 10 bucks value box had burger, chicken bites, fries and sauce. Sauce was not my favorite. Chicken bites were hard at times. Big \"blue wave\" shake for 6 dollars. Better than shake shack, but not a really distinguishable flavor. Upset that they made me put in my phone number to order"
+    },
+    {
+     "id": 144,
+     "text": "Dolce & Clemente",
+     "tier": "C",
+     "conf": 45,
+     "note": "I can find a sandwich I like I guess, but only after searching through the other wet italian sandwiches with stuff on it that I don't want."
+    },
+    {
+     "id": 145,
+     "text": "Tacobirria",
+     "tier": "C",
+     "conf": 42,
+     "note": "Had a tasty quesabirria from them, although greasy, but they really don't know how to make a good horchata. I was getting hard bits of cinnamon in my mouth."
+    },
+    {
+     "id": 146,
+     "text": "New Hong Kong",
+     "tier": "C",
+     "conf": 40,
+     "note": "Chewy sesame chicken, reminds me of Panda Express, not great."
+    },
+    {
+     "id": 147,
+     "text": "McDonalds",
+     "tier": "C",
+     "conf": 73,
+     "note": "Way too expensive now for what you get. Bacon Egg & cheese McGriddle and quarter pounder with cheese are the only things I would go out of my way to get, but they're too expensive now to justify. Even mcFlurry's feel like a rip off"
+    },
+    {
+     "id": 148,
+     "text": "The Chesterfield Inn",
+     "tier": "C",
+     "conf": 31,
+     "note": "Burger was disappointing and charred"
+    },
+    {
+     "id": 149,
+     "text": "Stuff Yer Face",
+     "tier": "C",
+     "conf": 4,
+     "note": "Haven't been there in a long time, don't really remember, but I don't think I was too crazy about the food."
+    },
+    {
+     "id": 150,
+     "text": "Dairy Queen",
+     "tier": "C",
+     "conf": 59,
+     "note": "Food is very mid and dry, would only really go for a blizzard, but I have other places I prefer for ice cream."
+    },
+    {
+     "id": 151,
+     "text": "White Castle",
+     "tier": "C",
+     "conf": 28,
+     "note": "I can't remember the last time I've actually been in a physical White Castle, but the microwave burgers are a nice little snack every once in a while and they taste the same. Not really worth making a meal though"
+    },
+    {
+     "id": 152,
+     "text": "Tarantella",
+     "tier": "C",
+     "conf": 84,
+     "note": "I like going there with the family, but the food in general is kinda bland. and the portions are huge."
+    },
+    {
+     "id": 153,
+     "text": "Shake Shack",
+     "tier": "C",
+     "conf": 61,
+     "note": "A burger that tastes fine but is so small you feel like you're getting ripped off. Fries feel kind of fake and their shakes are lame."
+    },
+    {
+     "id": 154,
+     "text": "Blaze Pizza",
+     "tier": "C",
+     "conf": 67,
+     "note": "This business model just does not work right. There's a reason why the place is always empty. Crust always has like a layer of dust on it"
+    },
+    {
+     "id": 155,
+     "text": "Golden Corral",
+     "tier": "C",
+     "conf": 33,
+     "note": "Yucky mac n cheese, lukewarm food. Might be better trying it again, but I didn't have a good impression"
+    },
+    {
+     "id": 156,
+     "text": "O'Connors",
+     "tier": "C",
+     "conf": 34,
+     "note": "charred burger, not a great flavor"
+    },
+    {
+     "id": 157,
+     "text": "Sonic",
+     "tier": "C",
+     "conf": 43,
+     "note": "Sus food. Has things I am curious to try, but have ended up making me feel not great after eating."
+    },
+    {
+     "id": 158,
+     "text": "Mangia",
+     "tier": "C",
+     "conf": 59,
+     "note": "Very middle of the road pizza."
+    },
+    {
+     "id": 159,
+     "text": "Il Portico Ristorante",
+     "tier": "C",
+     "conf": 78,
+     "note": "I really love their veal piccata, but the sides seem prepared a little differently each time. I also like the dated environment because it feels unique, but the salad I had last time was horrible and there's never anybody in there. I don't think the owner who seems to be the only server can handle a larger crowd. Kinda slow"
+    },
+    {
+     "id": 160,
+     "text": "Cracker Barrel",
+     "tier": "C",
+     "conf": 37,
+     "note": "Hard to rank. I have good memories there of their breakfast, but the last time I went it felt like things were microwaved and chewy. I want to try it down south to see if it's better like my southern friends say."
+    },
+    {
+     "id": 161,
+     "text": "Honeygrow",
+     "tier": "C",
+     "conf": 68,
+     "note": "Food tasted good, but tiny portions and aggressive marketing / ordering system made me upset."
+    },
+    {
+     "id": 162,
+     "text": "Red Lobster",
+     "tier": "C",
+     "conf": 28,
+     "note": "Would only go there for the biscuits, which I can get at the store anyway."
+    },
+    {
+     "id": 163,
+     "text": "Olive Garden",
+     "tier": "C",
+     "conf": 15,
+     "note": "I only think about their breadsticks. I liked them a lot, but a group of my friends apparently all got sick after eating those together."
+    },
+    {
+     "id": 164,
+     "line": true,
+     "label": "Will still go here without protest",
+     "dir": "up"
+    },
+    {
+     "id": 165,
+     "text": "Tacos El Tio",
+     "tier": "C",
+     "conf": 73,
+     "note": "Very dry tacos, salsa that comes with the chips is very bitter for some reason."
+    },
+    {
+     "id": 166,
+     "text": "LaScala's Fire Pizza",
+     "tier": "C",
+     "conf": 30,
+     "note": "Brittle burnt crust on overly tomatoey pizza pie. Only went there once, not feeling it again."
+    },
+    {
+     "id": 167,
+     "text": "Buccee's (Made to order food)",
+     "tier": "C",
+     "conf": 25,
+     "note": "Love their packaged snacks to death. Their brisket wrap I got was very chewy and sad for brisket though."
+    },
+    {
+     "id": 168,
+     "text": "Burger King",
+     "tier": "C",
+     "conf": 40,
+     "note": "Do not like the \"flame broil\" they try to add to the burger. I like the chicken fries, but I would never seek them out."
+    },
+    {
+     "id": 169,
+     "text": "Wing It Forward",
+     "tier": "C",
+     "conf": 67,
+     "note": "Attached to whole hog, not much better. The only saving grace is that they're cheap. Got 5 chicken tenders with mac n cheese for only like 11 bucks. But they weren't great. Lemon pepper seasoning was all pepper and no lemon and I didn't feel good. Mac was just okay. Stupid name"
+    },
+    {
+     "id": 170,
+     "text": "Sun Island BBQ Jerk Supreme",
+     "tier": "D",
+     "conf": 90,
+     "note": "Curry chicken tasted good, but there was so much bone compared to actual chicken. The roti bread was very hard to chew through, not worth getting"
+    },
+    {
+     "id": 171,
+     "text": "Chickie's & Pete's",
+     "tier": "D",
+     "conf": 10,
+     "note": "Really haven't been there in a long time to tell. All I remember is getting chicken fingers and french fries which were kinda hard. Think there's a reason we don't go there anymore."
+    },
+    {
+     "id": 172,
+     "text": "Applebee's",
+     "tier": "D",
+     "conf": 39,
+     "note": "Nice wings, but those \"riblets\" I got were a crime. Kept chomping down on hard flat bones that did not need to be in there. Sauce made napkins stick to my hands."
+    },
+    {
+     "id": 173,
+     "text": "TGI Friday's",
+     "tier": "D",
+     "conf": 32,
+     "note": "terrible garlic parm wings, very greasy food, almost made me sick getting a burger from there at the airport."
+    },
+    {
+     "id": 174,
+     "text": "Stewart's Drive In",
+     "tier": "D",
+     "conf": 43,
+     "note": "Cheesesteak is a single steak-umm on a roll. Burger is charry and gross. You go there only for the soda or a float, but even those feel off now that they use plastic cups, unless that was weber's before that had the actual mugs."
+    },
+    {
+     "id": 175,
+     "line": true,
+     "label": "Actively avoid going here",
+     "dir": "down"
+    },
+    {
+     "id": 176,
+     "text": "Jimmy's",
+     "tier": "D",
+     "conf": 52,
+     "note": "Alright burger, but offensively bad chicken pot pie. Not sad they went under."
+    },
+    {
+     "id": 177,
+     "text": "Flying Pig Tavern & Tap",
+     "tier": "D",
+     "conf": 37,
+     "note": "Gave me a raw burger the first time, but they fixed it. It was a \"mac n cheese\" burger that only had 6 noodles on it."
+    },
+    {
+     "id": 178,
+     "text": "Whole Hog Cafe",
+     "tier": "D",
+     "conf": 63,
+     "note": "Whatever red meat I got was good, but that chicken leg did not look safe to eat. Asked for another and it looked the same inside so I threw it out. Absolute idiot behind the register didn't know what he was doing. Bbq sauces aren't that good"
+    },
+    {
+     "id": 179,
+     "text": "Flame Broiler",
+     "tier": "D",
+     "conf": 98,
+     "note": "Had it on my road trip. Like a build your own Asian bowl type of place. The one I went to was just so bland though, and the vegetables looked dirty. Nasty stuff."
+    },
+    {
+     "id": 180,
+     "text": "Rossi's",
+     "tier": "F",
+     "conf": 72,
+     "note": "Flavorless burger with giant wet vegetables on a flaky kaiser roll, absolutely awful zucchini \"sticks\" that I got because I thought they'd be like illiano's. Hot fried log of sour mush."
+    },
+    {
+     "id": 181,
+     "text": "Loli's Restaurant",
+     "tier": "F",
+     "conf": 100,
+     "note": "Went there to try chicharrones for the first time. They were edible, but stank real bad. The guy cut them up with scissors and didn't have gloves on. Felt unsafe to eat. Place was dingy and dirty."
+    },
+    {
+     "id": 182,
+     "text": "Under the Moon Cafe",
+     "tier": "F",
+     "conf": 41,
+     "note": "One of the only places I almost threw up while eating. Horrendous meat dish floating in terrible sauce."
+    },
+    {
+     "id": 183,
+     "text": "Axis Pizza",
+     "tier": "F",
+     "conf": 100,
+     "note": "Worst cheesesteak I've ever eaten. All the meat was strung together like it was on a string, and had to pull it out of my mouth because I could not chew it. Almost threw up."
+    }
+   ]
+  },
+  {
+   "id": "drinks",
+   "name": "Drinks",
+   "items": [
+    {
+     "id": 1,
+     "text": "Mate Couro",
+     "tier": "SSS",
+     "conf": 84,
+     "note": "I don't really know how to describe the flavor, but it's a refreshing sweetness that doesn't overpower you at all. I could drink them all day, and they still taste great when diluted. Thankfully they come in small bottles too"
+    },
+    {
+     "id": 2,
+     "text": "Foco mangosteen Drink",
+     "tier": "SSS",
+     "conf": 83,
+     "note": "A marvelous fruity taste with some added thickness. Felt like I was drinking a tropical milkshake. Like a peach and a strawberry. Can't drink it too much, but I would have it all the time if it were good for me."
+    },
+    {
+     "id": 3,
+     "text": "Cherry Clearly Canadian Zero Sugar",
+     "tier": "SSS",
+     "conf": 83,
+     "note": "Lovely refreshing beverage with my favorite cherry flavor, not too tart and not too artificial. Also love the glass bottle, and I think it's better for you for being sweetened with Stevia."
+    },
+    {
+     "id": 4,
+     "text": "Melon Calpico",
+     "tier": "SSS",
+     "conf": 100,
+     "note": "Wonderfully creamy melon flavored drink, reminds me of melona popsicles which I also love"
+    },
+    {
+     "id": 5,
+     "text": "Wawa Cookies & Cream Milk",
+     "tier": "SSS",
+     "conf": 93,
+     "note": "Always a treat. I like that it feels like a dessert drink, liquid ice cream. Sometimes it can feel like a bit much, but when you want to indulge you go for it"
+    },
+    {
+     "id": 6,
+     "text": "Dr. Pepper",
+     "tier": "SSS",
+     "conf": 79,
+     "note": "Iconic, my first choice for any mainstream soda. I can never pin down what the flavor is supposed to be, but it feels more special than a regular cola"
+    },
+    {
+     "id": 7,
+     "text": "Yogur de Savila Melon",
+     "tier": "SS",
+     "conf": 81,
+     "note": "Like melon flavored calpico with bits of aloe vera. Lovely creamy and refreshing flavor. Aloe vera is unnecessary, but not super offensive"
+    },
+    {
+     "id": 8,
+     "text": "Pennsylvania Dutch Birch Beer",
+     "tier": "SS",
+     "conf": 84,
+     "note": "Nostalgic taste of royalty, would take it over root beer any day. Steeps into that mint / root beer barrel flavor"
+    },
+    {
+     "id": 9,
+     "text": "Stewart's Orange Cream",
+     "tier": "SS",
+     "conf": 88,
+     "note": "Will always pick this over any plain orange soda. It really helps the orange flavor so much without it being overpowering"
+    },
+    {
+     "id": 10,
+     "text": "Raspberry Snapple",
+     "tier": "SS",
+     "conf": 79,
+     "note": "Favorite snapple flavor, always refreshing and a great example of good raspberry flavor"
+    },
+    {
+     "id": 11,
+     "text": "Joe Tea Peach Tea",
+     "tier": "SS"
+    },
+    {
+     "id": 12,
+     "text": "Joe Tea Raspberry Tea",
+     "tier": "SS"
+    },
+    {
+     "id": 13,
+     "text": "Capri Sun Pacific Cooler",
+     "tier": "SS"
+    },
+    {
+     "id": 14,
+     "text": "Apple & Eve Cran Raspberry Juice",
+     "tier": "SS",
+     "conf": 45,
+     "note": "Haven't had it in a while, but a beautiful mix of flavors"
+    },
+    {
+     "id": 15,
+     "text": "Stewarts Cherry Cream Soda",
+     "tier": "SS",
+     "conf": 80,
+     "note": "A treat of a soda"
+    },
+    {
+     "id": 16,
+     "text": "Knudsen Sparkling Pear Juice",
+     "tier": "SS",
+     "conf": 86,
+     "note": "A nice treat whenever I go to granny & pops. Complements dinner well"
+    },
+    {
+     "id": 17,
+     "text": "Strawberry Watermelon Frostie",
+     "tier": "S",
+     "conf": 95,
+     "note": "Lovely sweet flavor, two S tier fruits combined. Fizz gets a bit in the way though"
+    },
+    {
+     "id": 18,
+     "text": "Kirkland Sparkling Black raspberry",
+     "tier": "S",
+     "conf": 39,
+     "note": "Haven't had it in a long time, but I remember liking how powerful the flavor is through the fizz"
+    },
+    {
+     "id": 19,
+     "text": "Red Rock Merengue Soda",
+     "tier": "S",
+     "conf": 78,
+     "note": "Quaint creamy soda that has a nice color and label"
+    },
+    {
+     "id": 20,
+     "text": "Brisk Raspberry Iced Tea",
+     "tier": "S",
+     "conf": 85,
+     "note": "Very refreshing for a raspberry flavor. Will prefer this over regular iced tea if they have it"
+    },
+    {
+     "id": 21,
+     "text": "Mountain Dew Baja Blast",
+     "tier": "S",
+     "conf": 82,
+     "note": "The fizzle and tang of mountain dew with added refreshingness"
+    },
+    {
+     "id": 22,
+     "text": "Strawberries & Cream Dr. Pepper",
+     "tier": "S",
+     "conf": 48,
+     "note": "Dr. Pepper only loses points with their other flavors, but this is still a nice flavor combo"
+    },
+    {
+     "id": 23,
+     "text": "Orange Calpico",
+     "tier": "S",
+     "conf": 45,
+     "note": "Sweet orange cream creaminess"
+    },
+    {
+     "id": 24,
+     "text": "Simply Watermelon Juice",
+     "tier": "S",
+     "conf": 80,
+     "note": "Great drink mom used to get us"
+    },
+    {
+     "id": 25,
+     "text": "Poppi Cherry Limeade",
+     "tier": "S",
+     "conf": 81,
+     "note": "First poppi flavor I tried, enjoy the tang of the lime without it being too bad for me compared to the other drinks on the list."
+    },
+    {
+     "id": 26,
+     "text": "Pibb Xtra",
+     "tier": "S",
+     "conf": 74,
+     "note": "Knock off Dr. Pepper, but points for being a palatable substitute"
+    },
+    {
+     "id": 27,
+     "text": "Cherry Coke Zero",
+     "tier": "S",
+     "conf": 81,
+     "note": "Best iteration of coke, I can see why mom loves it"
+    },
+    {
+     "id": 28,
+     "text": "Sprite",
+     "tier": "S",
+     "conf": 71,
+     "note": "Something is just so crisp about it. Best lemon lime soda"
+    },
+    {
+     "id": 29,
+     "text": "Stewart's Cream Soda",
+     "tier": "S",
+     "conf": 93,
+     "note": "A lovely sweetness that feels great to drink, goes down smooth"
+    },
+    {
+     "id": 30,
+     "text": "Stewart's Root Beer",
+     "tier": "S",
+     "conf": 78,
+     "note": "A much better root beer than most of the other canned ones"
+    },
+    {
+     "id": 31,
+     "text": "Welch's White Grape Juice",
+     "tier": "S",
+     "conf": 66,
+     "note": "Very sweet and refreshing flavor, miss it quite a bit"
+    },
+    {
+     "id": 32,
+     "text": "Poland Springs Orange Sparkling Water",
+     "tier": "S",
+     "conf": 63,
+     "note": "No sugar, brings through a pleasant orange flavor without the bubbles overpowering"
+    },
+    {
+     "id": 33,
+     "text": "Trader Joes Sparkling Strawberry Juice",
+     "tier": "S",
+     "conf": 90,
+     "note": "Get these most often from trader joes, only stopped cuz I was worried about sugar. Lovely strawberry flavor"
+    },
+    {
+     "id": 34,
+     "text": "Hug Fruit Barrels - Blue",
+     "tier": "S",
+     "conf": 74,
+     "note": "blue popsicle juice :)"
+    },
+    {
+     "id": 35,
+     "text": "Arizona Arnold Palmer",
+     "tier": "S",
+     "conf": 80,
+     "note": "Always love cracking one of these open"
+    },
+    {
+     "id": 36,
+     "text": "Arizona Watermelon Fruit Juice Cocktail",
+     "tier": "S",
+     "conf": 70,
+     "note": "Very refreshing watermelon flavor, just prolly not great for me"
+    },
+    {
+     "id": 37,
+     "text": "Trumoo Chocolate Milk",
+     "tier": "S",
+     "conf": 77,
+     "note": "very much enjoyed getting this at cracker barrel back when it was good"
+    },
+    {
+     "id": 38,
+     "text": "Yoohoo",
+     "tier": "S",
+     "conf": 78,
+     "note": "Never had a bad experience with yoohoo honestly. It's an odd beverage, but it feels fun to drink"
+    },
+    {
+     "id": 39,
+     "text": "Orange Gatorade",
+     "tier": "S"
+    },
+    {
+     "id": 40,
+     "text": "Glacier Cherry Gatorade",
+     "tier": "S"
+    },
+    {
+     "id": 41,
+     "text": "Peach Snapple",
+     "tier": "S",
+     "conf": 69,
+     "note": "Great peach flavor balanced by tea"
+    },
+    {
+     "id": 42,
+     "text": "Eggnog",
+     "tier": "S",
+     "note": "Always happy to have some around christmas"
+    },
+    {
+     "id": 43,
+     "text": "Capri Sun Fruit Punch",
+     "tier": "S"
+    },
+    {
+     "id": 44,
+     "text": "Capri Sun Strawberry Kiwi",
+     "tier": "S"
+    },
+    {
+     "id": 45,
+     "text": "Langers tangerine Peach Juice",
+     "tier": "S",
+     "conf": 28,
+     "note": "Feels like I'm sucking the juice right from a refreshing orange, but sweetened in a way that I enjoy, since real oranges are kinda eh"
+    },
+    {
+     "id": 46,
+     "text": "Boylan's Cream Soda",
+     "tier": "S",
+     "note": "Very nice and creamy"
+    },
+    {
+     "id": 47,
+     "text": "Frostie Blue Cream Soda",
+     "tier": "S",
+     "conf": 66,
+     "note": "Delightful... and blue!"
+    },
+    {
+     "id": 48,
+     "text": "Sparkling Ice Cherry Limeade",
+     "tier": "S",
+     "conf": 62
+    },
+    {
+     "id": 49,
+     "text": "Aloe Vera Watermelon",
+     "tier": "S",
+     "conf": 64
+    },
+    {
+     "id": 50,
+     "text": "Walmart Blue Raspberry 'sparkling water'",
+     "tier": "S",
+     "conf": 88,
+     "note": "Very pungent blue raspberry flavor"
+    },
+    {
+     "id": 51,
+     "text": "Strawberry Ramune",
+     "tier": "S",
+     "conf": 57,
+     "note": "Like to get it at hibachi"
+    },
+    {
+     "id": 52,
+     "text": "Melon Ramune",
+     "tier": "S",
+     "conf": 33,
+     "note": "Refreshing and sweet, but not the best because the carbonation throws it off some"
+    },
+    {
+     "id": 53,
+     "text": "Olipop appple crisp",
+     "tier": "S",
+     "conf": 77,
+     "note": "Crisp indeed. Reminds me of the sparkling apple / pear juice, good ingredients"
+    },
+    {
+     "id": 54,
+     "text": "Fresca",
+     "tier": "S",
+     "conf": 88,
+     "note": "Similar to pocari sweat, but fizzier"
+    },
+    {
+     "id": 55,
+     "text": "Guarana",
+     "tier": "A",
+     "conf": 78,
+     "note": "Unique flavor that I quite enjoy"
+    },
+    {
+     "id": 56,
+     "text": "Pocari Sweat",
+     "tier": "A",
+     "conf": 77,
+     "note": "Nice and refreshing, tastes a little like sweet tarts, but not a ton"
+    },
+    {
+     "id": 57,
+     "text": "Vinut soursop Juice",
+     "tier": "A",
+     "conf": 37,
+     "note": "Very sweet and almost creamy flavor"
+    },
+    {
+     "id": 58,
+     "text": "Maximum Juice Soursop Juice",
+     "tier": "A",
+     "conf": 41,
+     "note": "Not as good as vinut, but still tasty"
+    },
+    {
+     "id": 59,
+     "text": "Fitz's Berry Pomegranate Soda",
+     "tier": "A",
+     "conf": 42,
+     "note": "Nice little tangy soda, pretty color"
+    },
+    {
+     "id": 60,
+     "text": "Kool Aid Jammers - Blue",
+     "tier": "A",
+     "conf": 100,
+     "note": "My favorite of the jammers, fun bottle to drink from"
+    },
+    {
+     "id": 61,
+     "text": "Kool Aid Jammers - Bright Red",
+     "tier": "A",
+     "conf": 57,
+     "note": "Just like a regular fruit punch"
+    },
+    {
+     "id": 62,
+     "text": "Kool Aid Jammers -  Dark Red",
+     "tier": "A",
+     "conf": 55,
+     "note": "Similar to the light red jammer"
+    },
+    {
+     "id": 63,
+     "text": "Kool Aid Jammers - Green",
+     "tier": "A",
+     "conf": 79,
+     "note": "Second best jammer"
+    },
+    {
+     "id": 64,
+     "text": "Sioux City Prickly Pear Soda",
+     "tier": "A",
+     "conf": 40,
+     "note": "A sweetness that I remember liking, but I cannot taste it from memory. Would want to try again"
+    },
+    {
+     "id": 65,
+     "text": "Yerba Mate",
+     "tier": "A",
+     "conf": 70,
+     "note": "Reminds me of the sparkling pear juice, but I was a bit disheartened when I shared it with other friends and they said it tasted like bubblegum because now I taste it sometimes"
+    },
+    {
+     "id": 66,
+     "text": "Frutival Basil Seed Drink - Blue",
+     "tier": "A",
+     "conf": 82,
+     "note": "First one of the basil seed drinks I tried, love the look and thicker feel with the sweet flavor. Need to be in a mood for it though"
+    },
+    {
+     "id": 67,
+     "text": "Frutival Basil Seed Drink - Kiwi",
+     "tier": "A",
+     "conf": 58,
+     "note": "Love kiwi, love the basil seeds. Made it feel like kiwi seeds"
+    },
+    {
+     "id": 68,
+     "text": "Frutival Basil Seed Drink - Watermelon",
+     "tier": "A",
+     "conf": 42,
+     "note": "Tasted good, but not as exciting as the other flavors of the basil seed drinks"
+    },
+    {
+     "id": 69,
+     "text": "Fresca Grapefruit",
+     "tier": "A",
+     "conf": 86,
+     "note": "Like Pocari Sweat as a soda, pretty green bottle. I'd get it again"
+    },
+    {
+     "id": 70,
+     "text": "Walovi Tea",
+     "tier": "A",
+     "conf": 80,
+     "note": "The can was cool and I like the history, but at the end of the day it's just a sweet tea. It is a pretty good one though as far as just the tea flavor goes"
+    },
+    {
+     "id": 71,
+     "text": "Orange Crush",
+     "tier": "A",
+     "conf": 78,
+     "note": "Feels more orangey than the other canned orange sodas"
+    },
+    {
+     "id": 72,
+     "text": "Orange Sunkist",
+     "tier": "A",
+     "conf": 58,
+     "note": "Similar to orange crush, but I would take crush over sunkist"
+    },
+    {
+     "id": 73,
+     "text": "Grape Crush",
+     "tier": "A",
+     "conf": 70,
+     "note": "Would still pick orange over grape, but will pick grape if I want to change things up. Tasty and pungent"
+    },
+    {
+     "id": 74,
+     "text": "Mountain Dew",
+     "tier": "A",
+     "conf": 78,
+     "note": "Gotta be in a mood for mountain dew, but it's a good mood to be in"
+    },
+    {
+     "id": 75,
+     "text": "Mountain Dew Code Red",
+     "tier": "A",
+     "conf": 62,
+     "note": "Very strong flavor over regular mountain dew, was nice to have at bowling"
+    },
+    {
+     "id": 76,
+     "text": "Mountain Dew Voltage",
+     "tier": "A",
+     "conf": 57,
+     "note": "Very strong flavor over regular mountain dew, was nice to have at bowling, preferred over code red"
+    },
+    {
+     "id": 77,
+     "text": "Fruit Shoot Strawberry & Raspberry",
+     "tier": "A",
+     "conf": 70,
+     "note": "I remember the first time I had it in the UK I was really excited about it, but the second time I had it I wasn't as impressed. Still good as a fruit juice though"
+    },
+    {
+     "id": 78,
+     "text": "DG Jamaican Cream Soda",
+     "tier": "A",
+     "conf": 31,
+     "note": "Solid cream soda"
+    },
+    {
+     "id": 79,
+     "text": "Electrolit Blue",
+     "tier": "A",
+     "conf": 72,
+     "note": "Less medicinal taste, still nice semi thick texture"
+    },
+    {
+     "id": 80,
+     "text": "Orange Fanta",
+     "tier": "A",
+     "conf": 78,
+     "note": "Right around Crush, still better than Sunkist by a little. Think it's better in a 2 liter than in a can"
+    },
+    {
+     "id": 81,
+     "text": "Blue Raspberry Sunny D",
+     "tier": "A",
+     "conf": 56,
+     "note": "More mild than regular sunny D, adds a blue raspberry flavor I like a lot, but not so much for the amount of sugar"
+    },
+    {
+     "id": 82,
+     "text": "Strawberry Fanta",
+     "tier": "A",
+     "conf": 79,
+     "note": "Feels like the strawberry flavor cannot push through the carbonation, but I like it conceptually"
+    },
+    {
+     "id": 83,
+     "text": "Cheerwine Soda",
+     "tier": "A",
+     "conf": 68,
+     "note": "Like a much more palatable version of Senorial Sangria soda. Cherryish flavor that isn't too sweet, feels refined"
+    },
+    {
+     "id": 84,
+     "text": "Canada Dry",
+     "tier": "A",
+     "conf": 76,
+     "note": "Would take this over schweppes. Good ginger ale"
+    },
+    {
+     "id": 85,
+     "text": "Grape Fanta",
+     "tier": "A",
+     "conf": 82,
+     "note": "Similar to grape crush"
+    },
+    {
+     "id": 86,
+     "text": "Kung Fu Tea Brown Sugar Milk Tea",
+     "tier": "A",
+     "conf": 54,
+     "note": "Like the chai milk, but a little sweeter. I had the chai more often though"
+    },
+    {
+     "id": 87,
+     "text": "Kung fu Tea Peach Green Tea",
+     "tier": "A",
+     "conf": 36,
+     "note": "Nice peach tasting tea"
+    },
+    {
+     "id": 88,
+     "text": "Kung fu Tea Chai Milk Tea",
+     "tier": "A",
+     "conf": 64,
+     "note": "Refreshing, not too sweet"
+    },
+    {
+     "id": 89,
+     "text": "Watermelon Hint",
+     "tier": "A",
+     "conf": 69,
+     "note": "Favorite hint flavor, but it is a bit more expensive than the other flavors for some reason"
+    },
+    {
+     "id": 90,
+     "text": "Orange Cream Hint",
+     "tier": "A",
+     "conf": 83,
+     "note": "Orange flavor comes through nicely, no aftertaste. Cheaper"
+    },
+    {
+     "id": 91,
+     "text": "Watermelon Propel",
+     "tier": "A",
+     "conf": 69,
+     "note": "Sometimes the flavor is too strong, but I still enjoy"
+    },
+    {
+     "id": 92,
+     "text": "Kiwi Strawberry Propel",
+     "tier": "A",
+     "conf": 64,
+     "note": "Sometimes the flavor is too strong, but I still enjoy"
+    },
+    {
+     "id": 93,
+     "text": "Trader Joes Prebiotic Cherry Cola",
+     "tier": "A",
+     "conf": 60,
+     "note": "Decent flavor for what I got, better for you than regular cola"
+    },
+    {
+     "id": 94,
+     "text": "Trader Joes Power of Red",
+     "tier": "A",
+     "conf": 67,
+     "note": "I expected to be put off by some of the ingredient additions but it still had a nice fruity aura"
+    },
+    {
+     "id": 95,
+     "text": "Sanpellegrino Orange",
+     "tier": "A",
+     "conf": 69,
+     "note": "Best flavor of these"
+    },
+    {
+     "id": 96,
+     "text": "Trader Joes Pomegranate White Tea",
+     "tier": "A"
+    },
+    {
+     "id": 97,
+     "text": "Trader Joes Peach Black Tea",
+     "tier": "A"
+    },
+    {
+     "id": 98,
+     "text": "Trader Joes Sparkling Watermelon Juice",
+     "tier": "A",
+     "conf": 54,
+     "note": "not as good as the strawberry cuz of the carbonation clashing with watermelon, but still tasty"
+    },
+    {
+     "id": 99,
+     "text": "Hug Fruit Barrels - Orange",
+     "tier": "A",
+     "conf": 68,
+     "note": "Orange popsicle juice"
+    },
+    {
+     "id": 100,
+     "text": "Electrolit Strawberry Kiwi",
+     "tier": "A",
+     "conf": 60,
+     "note": "Love electrolit, good flavor"
+    },
+    {
+     "id": 101,
+     "text": "Lemon Lime Gatorade",
+     "tier": "A",
+     "conf": 69
+    },
+    {
+     "id": 102,
+     "text": "Cool Blue Gatorade",
+     "tier": "A"
+    },
+    {
+     "id": 103,
+     "text": "Blue Powerade",
+     "tier": "A"
+    },
+    {
+     "id": 104,
+     "text": "Strawberry Kiwi Snapple",
+     "tier": "A"
+    },
+    {
+     "id": 105,
+     "text": "Minute Maid fruit punch",
+     "tier": "A"
+    },
+    {
+     "id": 106,
+     "text": "Poland Springs Water",
+     "tier": "A"
+    },
+    {
+     "id": 107,
+     "text": "Mott's Apple Juice",
+     "tier": "A",
+     "conf": 61,
+     "note": "So much better than that thick brown crap"
+    },
+    {
+     "id": 108,
+     "text": "Apple Cider",
+     "tier": "A",
+     "note": "Nice fall treat"
+    },
+    {
+     "id": 109,
+     "text": "Juicy Juice Cherry Juice",
+     "tier": "A",
+     "conf": 39
+    },
+    {
+     "id": 110,
+     "text": "Sparkling Ice Kiwi Strawberry",
+     "tier": "A",
+     "conf": 60
+    },
+    {
+     "id": 111,
+     "text": "Naked Strawberry Banana",
+     "tier": "A",
+     "conf": 52
+    },
+    {
+     "id": 112,
+     "text": "Bai Watermelon",
+     "tier": "A",
+     "conf": 63,
+     "note": "The watermelon flavor is nice enough to cut through the chalkiness"
+    },
+    {
+     "id": 113,
+     "text": "Simply Lemonade",
+     "tier": "A",
+     "conf": 60,
+     "note": "Tasty lemonade"
+    },
+    {
+     "id": 114,
+     "text": "Cream-O-Land chocolate milk",
+     "tier": "A",
+     "conf": 63,
+     "note": "Like to get it with breakfast sandwiches"
+    },
+    {
+     "id": 115,
+     "text": "Knudsen Sparkling Apple Juice",
+     "tier": "A",
+     "conf": 49,
+     "note": "Tasted good in place of the sparkling pear juice when they couldn't find it"
+    },
+    {
+     "id": 116,
+     "text": "Hank's Root Beer",
+     "tier": "A",
+     "conf": 60,
+     "note": "A better root beer than any of the canned ones"
+    },
+    {
+     "id": 117,
+     "text": "Blueberry Ramune",
+     "tier": "A",
+     "conf": 29,
+     "note": "Not as good as the other ramune flavors but still good"
+    },
+    {
+     "id": 118,
+     "text": "Ocean Spray White Cran Peach",
+     "tier": "B",
+     "conf": 83,
+     "note": "Favorite when I was a child, but a little more tart than I would prefer now"
+    },
+    {
+     "id": 119,
+     "text": "Blackcurrant Ribena",
+     "tier": "B",
+     "conf": 35,
+     "note": "Nice sweet drink, like a not as pungent grape soda"
+    },
+    {
+     "id": 120,
+     "text": "Veggie Tarry Peanut Punch",
+     "tier": "B",
+     "conf": 70,
+     "note": "Like a lite peanut butter smoothie, very thick and have to work through it but good flavor"
+    },
+    {
+     "id": 121,
+     "text": "Tropical Rhythm Reggae Medley",
+     "tier": "B",
+     "conf": 48,
+     "note": "Just your average inoffensive fruit punch type of drink"
+    },
+    {
+     "id": 122,
+     "text": "Bidenomics Berry Soda",
+     "tier": "B",
+     "conf": 43,
+     "note": "Blue, alright"
+    },
+    {
+     "id": 123,
+     "text": "Agua de Kefir Guava Paloma",
+     "tier": "B",
+     "conf": 65,
+     "note": "Tasted like a tutti frutti jelly bean, but refreshing. Flavor was hard to get around, but I thought it was nice"
+    },
+    {
+     "id": 124,
+     "text": "Mug Root Beer",
+     "tier": "B",
+     "conf": 60,
+     "note": "Probably one of the better canned root beers"
+    },
+    {
+     "id": 125,
+     "text": "Brisk Lemon Iced Tea",
+     "tier": "B",
+     "conf": 63,
+     "note": "I like a good can of brisk. Can be overwhelming if I have it too often though"
+    },
+    {
+     "id": 126,
+     "text": "Tropical Fanta",
+     "tier": "B",
+     "conf": 18,
+     "note": "Had in the UK when with Angus, think it was nice"
+    },
+    {
+     "id": 127,
+     "text": "Electrolit Fruit Punch",
+     "tier": "B",
+     "conf": 63,
+     "note": "Occasionally comes off as medicinal, but also feels better to drink than gatorade"
+    },
+    {
+     "id": 128,
+     "text": "Starry",
+     "tier": "B",
+     "conf": 38,
+     "note": "I remember Sierra Mist more than Starry, but solid lemony soda"
+    },
+    {
+     "id": 129,
+     "text": "Schweppes Giner Ale",
+     "tier": "B",
+     "conf": 88,
+     "note": "Not my first choice, but it's a good filler drink"
+    },
+    {
+     "id": 130,
+     "text": "Zevia ginger Ale",
+     "tier": "B",
+     "conf": 71,
+     "note": "Real ginger ale is better, but pretty good for a stevia sweetened soda"
+    },
+    {
+     "id": 131,
+     "text": "Poppi Wild Berry",
+     "tier": "B",
+     "conf": 56,
+     "note": "Decent soda, glad it doesn't have too many"
+    },
+    {
+     "id": 132,
+     "text": "Poppi Orange",
+     "tier": "B",
+     "conf": 67,
+     "note": "A bit more bitter than other orange sodas,"
+    },
+    {
+     "id": 133,
+     "text": "Summer berry Waterloo",
+     "tier": "B",
+     "conf": 57,
+     "note": "Had a bit of a raspberry quality that comes through the bubbles, liked it better than the other waterloos"
+    },
+    {
+     "id": 134,
+     "text": "Cherry Hint",
+     "tier": "B",
+     "conf": 64,
+     "note": "A tad medicinal, but it doesn't bother me."
+    },
+    {
+     "id": 135,
+     "text": "Lemon pop Hint",
+     "tier": "B",
+     "conf": 79,
+     "note": "Mostly nice addition to the water, but sometimes comes off as bitter"
+    },
+    {
+     "id": 136,
+     "text": "Rocket Pop Hint",
+     "tier": "B",
+     "conf": 76,
+     "note": "Better than the rainbow pop, but can sometimes come off medicinal"
+    },
+    {
+     "id": 137,
+     "text": "Trader Joes Prebiotic Tangerine Sparkling Beverage",
+     "tier": "B",
+     "conf": 38,
+     "note": "Orange flavor ends up being a bit bitter, but alright"
+    },
+    {
+     "id": 138,
+     "text": "Spindrift Raspberry Lime Sparkling Water",
+     "tier": "B",
+     "conf": 59,
+     "note": "I did get both flavors, decent sparkling water"
+    },
+    {
+     "id": 139,
+     "text": "Sanpellegrino Blood Orange",
+     "tier": "B",
+     "conf": 43,
+     "note": "More bitter than the regular orange"
+    },
+    {
+     "id": 140,
+     "text": "Clearly Canadian Blackberry",
+     "tier": "B",
+     "conf": 61,
+     "note": "A good bit less good than the diet cherry, and didn't feel as good about it because it wasn't zero sugar"
+    },
+    {
+     "id": 141,
+     "text": "Hug Fruit Barrels - Green",
+     "tier": "B",
+     "conf": 70,
+     "note": "Green popsicle juice"
+    },
+    {
+     "id": 142,
+     "text": "Hug Fruit barrels - Red",
+     "tier": "B",
+     "conf": 54,
+     "note": "Red popsicle juice"
+    },
+    {
+     "id": 143,
+     "text": "Blue Raspberry Minute Maid",
+     "tier": "B",
+     "conf": 62,
+     "note": "Very blue. Not good for you though"
+    },
+    {
+     "id": 144,
+     "text": "Arizona Sweet Tea",
+     "tier": "B",
+     "conf": 72,
+     "note": "Wasn't too crazy about it, just felt like a regular sweet tea"
+    },
+    {
+     "id": 145,
+     "text": "Jumex Peach Nectar",
+     "tier": "B",
+     "conf": 60,
+     "note": "Not overly sweet peach flavor, which was new, but I do kinda want that with peach flavored drinks."
+    },
+    {
+     "id": 146,
+     "text": "Chocolate Nesquik",
+     "tier": "B",
+     "conf": 63,
+     "note": "Solid, not my favorite"
+    },
+    {
+     "id": 147,
+     "text": "Vanilla Nesquik",
+     "tier": "B",
+     "note": "A bit weird, but ultimately I like it"
+    },
+    {
+     "id": 148,
+     "text": "V8 Pomegranate Blueberry Juice",
+     "tier": "B",
+     "conf": 74,
+     "note": "I mostly watered it down, but in its base form it tastes alright for how little sugar it had"
+    },
+    {
+     "id": 149,
+     "text": "Fruit Punch Gatorade",
+     "tier": "B"
+    },
+    {
+     "id": 150,
+     "text": "Red Powerade",
+     "tier": "B"
+    },
+    {
+     "id": 151,
+     "text": "Hi-C Red",
+     "tier": "B"
+    },
+    {
+     "id": 152,
+     "text": "Hi-C Orange",
+     "tier": "B"
+    },
+    {
+     "id": 153,
+     "text": "Pure Leaf Raspberry Tea",
+     "tier": "B",
+     "conf": 62,
+     "note": "Raspberry helps it a lot"
+    },
+    {
+     "id": 154,
+     "text": "Tropicana Orange Juice",
+     "tier": "B"
+    },
+    {
+     "id": 155,
+     "text": "Fiji Water",
+     "tier": "B"
+    },
+    {
+     "id": 156,
+     "text": "Aquafina Water",
+     "tier": "B"
+    },
+    {
+     "id": 157,
+     "text": "V8 Splash Red",
+     "tier": "B"
+    },
+    {
+     "id": 158,
+     "text": "V8 Splash Orange",
+     "tier": "B"
+    },
+    {
+     "id": 159,
+     "text": "Naked Mighty Mango",
+     "tier": "B",
+     "conf": 24
+    },
+    {
+     "id": 160,
+     "text": "Naked Blue Machine",
+     "tier": "B",
+     "conf": 16
+    },
+    {
+     "id": 161,
+     "text": "Welch's Grape Juice",
+     "tier": "B",
+     "conf": 61,
+     "note": "Gotta be in the mood for grape juice, but when it hits it's good"
+    },
+    {
+     "id": 162,
+     "text": "Bai Cherry",
+     "tier": "B",
+     "conf": 57,
+     "note": "A little chalky texture, but still nice to drink"
+    },
+    {
+     "id": 163,
+     "text": "Minute Maid lemonade",
+     "tier": "B",
+     "conf": 74,
+     "note": "A bit more bitter than I want for lemonades"
+    },
+    {
+     "id": 164,
+     "text": "Apple & Eve Very Berry Juice Box",
+     "tier": "B",
+     "conf": 64,
+     "note": "What I think of when I think of a juice box. Really liked them when I was a kid"
+    },
+    {
+     "id": 165,
+     "text": "Apple & Eve Fruit Punch Juice Box",
+     "tier": "B",
+     "conf": 39,
+     "note": "Good juice box"
+    },
+    {
+     "id": 166,
+     "text": "Waterloo Melon Medley",
+     "tier": "B",
+     "conf": 81,
+     "note": "Has a nice smell, but the carbonation covers it a bit"
+    },
+    {
+     "id": 167,
+     "text": "Maine Root Blueberry Soda",
+     "tier": "B",
+     "conf": 39,
+     "note": "A bit strange, not too sweet"
+    },
+    {
+     "id": 168,
+     "text": "7Up",
+     "tier": "C",
+     "conf": 61,
+     "note": "The \"coke\" of lemon lime sodas. Just average"
+    },
+    {
+     "id": 169,
+     "text": "A&W Root Beer",
+     "tier": "C",
+     "conf": 35,
+     "note": "Has a weird creaminess that doesn't really work with the drink"
+    },
+    {
+     "id": 170,
+     "text": "Barq's Root Beer",
+     "tier": "C",
+     "conf": 29,
+     "note": "Middle of the road root beer"
+    },
+    {
+     "id": 171,
+     "text": "Poppi Cream Soda",
+     "tier": "C",
+     "conf": 46,
+     "note": "Okay. Stevia clashes with creaminess"
+    },
+    {
+     "id": 172,
+     "text": "Raspberry Nectarine Waterloo",
+     "tier": "C",
+     "conf": 66,
+     "note": "Flavor not too strong, but passable"
+    },
+    {
+     "id": 173,
+     "text": "Rainbow Pop Hint",
+     "tier": "C",
+     "conf": 71,
+     "note": "Feels artificial, flavor is muddied"
+    },
+    {
+     "id": 174,
+     "text": "Spindrift Lemon Sparkling Water",
+     "tier": "C",
+     "conf": 52,
+     "note": "Whatever, not a lot of flavor"
+    },
+    {
+     "id": 175,
+     "text": "Sanpellegrino Limonata",
+     "tier": "C",
+     "conf": 71,
+     "note": "Very strong, have to pucker a bit to get through"
+    },
+    {
+     "id": 176,
+     "text": "Trader Joes Pineapple Green Tea",
+     "tier": "C"
+    },
+    {
+     "id": 177,
+     "text": "Trader Joes Sparkling Guava Juice",
+     "tier": "C",
+     "conf": 61,
+     "note": "Somewhat acrid flavor, was hard to get through them"
+    },
+    {
+     "id": 178,
+     "text": "Hug Fruit Barrels - Purple",
+     "tier": "C",
+     "conf": 77,
+     "note": "purple popsicle juice :|"
+    },
+    {
+     "id": 179,
+     "text": "Maxim Juice Sorrel Drink",
+     "tier": "C",
+     "conf": 40,
+     "note": "Very unique taste, hard to describe, but sometimes it would feel like it bit you as you drank"
+    },
+    {
+     "id": 180,
+     "text": "Strawberry Nesquik",
+     "tier": "C",
+     "conf": 64,
+     "note": "Ends up feeling a bit like bubble gum, or a bit chalky. Not the biggest on strawberry milk"
+    },
+    {
+     "id": 181,
+     "text": "Lemon Snapple",
+     "tier": "C",
+     "conf": 85,
+     "note": "Occasionally burns my throat. Flavor can be good though"
+    },
+    {
+     "id": 182,
+     "text": "Evian Water",
+     "tier": "C"
+    },
+    {
+     "id": 183,
+     "text": "Apple & Eve Apple Juice",
+     "tier": "C",
+     "conf": 38,
+     "note": "I remember this being the thicker brown apple juice, didn't like it too much"
+    },
+    {
+     "id": 184,
+     "text": "Trader Joes Spiced Cider",
+     "tier": "C",
+     "note": "What is it with trader joes making spicy drinks? Not as bad as the wassail punch but still"
+    },
+    {
+     "id": 185,
+     "text": "Capri Sun Lemonade",
+     "tier": "C",
+     "note": "Feels weird to have lemonade in this form"
+    },
+    {
+     "id": 186,
+     "text": "Pom Cherry Pomegranate",
+     "tier": "C",
+     "note": "Mixed nicely with lemonade, but is generally too tart on its own"
+    },
+    {
+     "id": 187,
+     "text": "Bai Blueberry",
+     "tier": "C",
+     "conf": 33,
+     "note": "Not the best flavor, chalkiness isn't surpassed by flavor"
+    },
+    {
+     "id": 188,
+     "text": "Lester Fixin's Peanut Butter & Jelly Soda",
+     "tier": "C",
+     "conf": 63,
+     "note": "Some redeeming qualities to it, but doesn't really taste like PB&J, tastes kinda dry"
+    },
+    {
+     "id": 189,
+     "text": "Gold Peak Tea",
+     "tier": "C",
+     "conf": 10,
+     "note": "Can't remember the last time I had it"
+    },
+    {
+     "id": 190,
+     "text": "Apple & Eve Apple Juice Box",
+     "tier": "C",
+     "conf": 26,
+     "note": "Other apple juices are better"
+    },
+    {
+     "id": 191,
+     "text": "Blue Sunkist",
+     "tier": "C",
+     "conf": 65,
+     "note": "A TON of sugar, overly sweet"
+    },
+    {
+     "id": 192,
+     "text": "Berry Fanta",
+     "tier": "C",
+     "conf": 42,
+     "note": "Got it cuz it was blue, disappointing lack of flavor"
+    },
+    {
+     "id": 193,
+     "text": "\"Alive\" Mushroom root beer",
+     "tier": "C",
+     "conf": 89,
+     "note": "Very unique, didn't really get any of the effects on the bottle though. Flavor takes a bit to get used to, like a strong ginger ale."
+    },
+    {
+     "id": 194,
+     "text": "Momo watermelon kombucha",
+     "tier": "C",
+     "conf": 76,
+     "note": "Sometimes had a kind of 'rotting' watermelon flavor to it, but I ended up getting accustomed to it the more I drank. Not one I would come back to though"
+    },
+    {
+     "id": 195,
+     "text": "Senorial Sangria Soda",
+     "tier": "C",
+     "conf": 72,
+     "note": "Not very sweet, has the kind of feel like you're drinking alcohol but not really"
+    },
+    {
+     "id": 196,
+     "text": "Orange Kool Aid Soda",
+     "tier": "C",
+     "conf": 26,
+     "note": "Artificial, not too bad though"
+    },
+    {
+     "id": 197,
+     "text": "Pepsi",
+     "tier": "C",
+     "conf": 60,
+     "note": "Largely indifferent, but I prefer it over coke"
+    },
+    {
+     "id": 198,
+     "text": "Coca Cola",
+     "tier": "C",
+     "note": "Largely indifferent"
+    },
+    {
+     "id": 199,
+     "text": "Thumbs Up Cola",
+     "tier": "C",
+     "conf": 60,
+     "note": "Tastes like off brand coke, which is what it is."
+    },
+    {
+     "id": 200,
+     "text": "Raspberry Laziza",
+     "tier": "C",
+     "conf": 82,
+     "note": "I still enjoy drinking this, even though there is a bit of a bitterness that comes from it being a malt beverage. The raspberry flavor helps balance it out."
+    },
+    {
+     "id": 201,
+     "text": "Veggie Tarry Irish Sea Moss",
+     "tier": "C",
+     "conf": 88,
+     "note": "Very interesting vanilla-y flavor, but it was just so dense. I could not finish because of how filling it was."
+    },
+    {
+     "id": 202,
+     "text": "Pineapple Crush",
+     "tier": "C",
+     "conf": 87,
+     "note": "Weird flavor you really have to slog through, but sometimes I'd get a craving for it"
+    },
+    {
+     "id": 203,
+     "text": "Trader Joes Organic Fruit Punch",
+     "tier": "C",
+     "conf": 45,
+     "note": "Just a whatever juicebox"
+    },
+    {
+     "id": 204,
+     "text": "Sunny D",
+     "tier": "C",
+     "conf": 85,
+     "note": "Kicks you in the face with orange flavor. Sometimes I want that, but other times it stings my throat"
+    },
+    {
+     "id": 205,
+     "text": "Frooti mango",
+     "tier": "C",
+     "conf": 43,
+     "note": "Just whatever, not real strong mango flavor"
+    },
+    {
+     "id": 206,
+     "text": "Cherry Ring Pop Soda",
+     "tier": "C",
+     "note": "Very artificial, similar to the skittles ones"
+    },
+    {
+     "id": 207,
+     "text": "Sour Skittles drink",
+     "tier": "C",
+     "conf": 73,
+     "note": "Very artificial candy liquid, slightly worse than tropical"
+    },
+    {
+     "id": 208,
+     "text": "Tropical Skittles Drink",
+     "tier": "C",
+     "conf": 79,
+     "note": "Very artificial candy liquid"
+    },
+    {
+     "id": 209,
+     "text": "Filbert's Banana Soda",
+     "tier": "C",
+     "note": "Like banana laffy taffy. Kinda nasty, but not unpalatable"
+    },
+    {
+     "id": 210,
+     "text": "Dasani Water",
+     "tier": "D",
+     "note": "Somehow makes me more thirsty sometimes"
+    },
+    {
+     "id": 211,
+     "text": "Smart Water",
+     "tier": "D",
+     "conf": 65,
+     "note": "Stupid water, dumb expensive water"
+    },
+    {
+     "id": 212,
+     "text": "Poppi Cola",
+     "tier": "D",
+     "conf": 36,
+     "note": "Very strange, doesn't taste much like cola because of the stevia"
+    },
+    {
+     "id": 213,
+     "text": "Goya Tamarind Nectar",
+     "tier": "D",
+     "conf": 73,
+     "note": "Tasted like sesame chicken for some reason? I did still finish it, but it was very weird"
+    },
+    {
+     "id": 214,
+     "text": "Seagram's Ginger Ale",
+     "tier": "D",
+     "conf": 85,
+     "note": "Way too gingery, hard to stomach"
+    },
+    {
+     "id": 215,
+     "text": "V8 Vegetable Juice",
+     "tier": "D",
+     "conf": 58,
+     "note": "Only makes me feel healthy, but taste is eccchhh"
+    },
+    {
+     "id": 216,
+     "text": "Pure Leaf Unsweet Tea",
+     "tier": "D",
+     "note": "Gross, feels chemically, don't like the bottle"
+    },
+    {
+     "id": 217,
+     "text": "7/11 Caramel Apple Replenish",
+     "tier": "D"
+    },
+    {
+     "id": 218,
+     "text": "Hawaiian Punch Red",
+     "tier": "D",
+     "conf": 81,
+     "note": "Just way too much"
+    },
+    {
+     "id": 219,
+     "text": "Hawaiian Punch Orange",
+     "tier": "D",
+     "conf": 85,
+     "note": "Just way too much"
+    },
+    {
+     "id": 220,
+     "text": "Trader Joes 100% Mango Juice",
+     "tier": "D",
+     "conf": 73,
+     "note": "Oddly tasted like leftover cold pizza"
+    },
+    {
+     "id": 221,
+     "text": "Red Bull",
+     "tier": "D",
+     "conf": 59,
+     "note": "Liquid sweet tarts, but this time in a bad way. Didn't get anything from it energy wise, maybe just heart palpatations"
+    },
+    {
+     "id": 222,
+     "text": "Veggie Tarry Pineapple Ginger",
+     "tier": "D",
+     "conf": 71,
+     "note": "Very tart ginger taste"
+    },
+    {
+     "id": 223,
+     "text": "Maine Root Ginger Brew",
+     "tier": "D",
+     "conf": 63,
+     "note": "Very strong ginger taste that was hard to get past"
+    },
+    {
+     "id": 224,
+     "text": "Foco Pennywort Drink",
+     "tier": "D",
+     "conf": 75,
+     "note": "Tasted similar to the sugar cane juice, but just not as intense. Still would not get again though"
+    },
+    {
+     "id": 225,
+     "text": "Goya Sugarcane Juice",
+     "tier": "D",
+     "conf": 78,
+     "note": "Just kinda tasted \"wet.\" The sugar being in the juice without any other flavorant weirded me out and it was hard to finish."
+    },
+    {
+     "id": 226,
+     "text": "Trader Joes Winter Wassail Punch",
+     "tier": "D",
+     "conf": 81,
+     "note": "Why is it spicyyyy"
+    },
+    {
+     "id": 227,
+     "line": true,
+     "label": "Did not finish because of flavor",
+     "dir": "down"
+    },
+    {
+     "id": 228,
+     "text": "Biovidia Acai",
+     "tier": "D",
+     "conf": 65,
+     "note": "Very thick flavor that I did not enjoy drinking"
+    },
+    {
+     "id": 229,
+     "text": "Faygo firework Soda",
+     "tier": "D",
+     "conf": 100,
+     "note": "Felt chalky to drink, way too sweet. Not as bad as bubble gum but still pretty bad"
+    },
+    {
+     "id": 230,
+     "text": "Fruta Cashew Nectar",
+     "tier": "D",
+     "conf": 76,
+     "note": "Tasted like bell peppers, not something I want to drink"
+    },
+    {
+     "id": 231,
+     "text": "Peepsi",
+     "tier": "F",
+     "conf": 84,
+     "note": "Yucky piss pepsi"
+    },
+    {
+     "id": 232,
+     "text": "Faygo Bubble Pop Soda",
+     "tier": "F",
+     "conf": 100,
+     "note": "Simply not a flavor you want to drink. Feels chalky"
+    },
+    {
+     "id": 233,
+     "text": "Texas Tea Cedar Creek Unsweet Tea",
+     "tier": "F",
+     "conf": 100,
+     "note": "PEPPERMINT FLAVORED TEA???? WHY???? I could not see it was peppermint flavored from the tiny writing on the bottle"
+    },
+    {
+     "id": 234,
+     "text": "Trader Joes Celery Juice",
+     "tier": "F",
+     "conf": 100,
+     "note": "It does in fact taste like liquid celery. That is not a taste I want to taste anymore."
+    },
+    {
+     "id": 235,
+     "text": "Smugglers Run Tropical Soda",
+     "tier": "F",
+     "conf": 83,
+     "note": "Totally gross pina colada flavor. Tasted like cleaning product"
+    },
+    {
+     "id": 236,
+     "text": "Bai Coconut",
+     "tier": "F",
+     "conf": 61,
+     "note": "Hate coconut, the added chalky taste of Bai didn't help. Smelled like soap"
+    },
+    {
+     "id": 237,
+     "text": "Malta Goya",
+     "tier": "F",
+     "conf": 100,
+     "note": "I forget who recommended this to me, and it's probably for the best because I would have some choice words for them. Felt like I was drinking molasses soda. Had a kind of thickness to it as well that just felt wrong."
+    },
+    {
+     "id": 238,
+     "text": "Juices International Mauby Drink",
+     "tier": "F",
+     "conf": 100,
+     "note": "Tasted like wood and soap"
+    },
+    {
+     "id": 239,
+     "text": "Lester Fixins Bacon Soda",
+     "tier": "F",
+     "conf": 100,
+     "note": "A complete and total abomination"
+    }
+   ]
+  }
+ ]
+}
