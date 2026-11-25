@@ -2131,6 +2131,11 @@
      "note": "Probably one of the better canned root beers"
     },
     {
+     "id": 1795639022648.2588,
+     "text": "Black Cherry Waterloo",
+     "tier": "B"
+    },
+    {
      "id": 125,
      "text": "Brisk Lemon Iced Tea",
      "tier": "B",
@@ -2369,13 +2374,6 @@
      "note": "Gotta be in the mood for grape juice, but when it hits it's good"
     },
     {
-     "id": 162,
-     "text": "Bai Cherry",
-     "tier": "B",
-     "conf": 57,
-     "note": "A little chalky texture, but still nice to drink"
-    },
-    {
      "id": 163,
      "text": "Minute Maid lemonade",
      "tier": "B",
@@ -2388,6 +2386,13 @@
      "tier": "B",
      "conf": 64,
      "note": "What I think of when I think of a juice box. Really liked them when I was a kid"
+    },
+    {
+     "id": 162,
+     "text": "Bai Cherry",
+     "tier": "B",
+     "conf": 57,
+     "note": "A little chalky texture, but still nice to drink"
     },
     {
      "id": 165,
@@ -2418,6 +2423,13 @@
      "note": "The \"coke\" of lemon lime sodas. Just average"
     },
     {
+     "id": 171,
+     "text": "Poppi Cream Soda",
+     "tier": "C",
+     "conf": 46,
+     "note": "Okay. Stevia clashes with creaminess"
+    },
+    {
      "id": 169,
      "text": "A&W Root Beer",
      "tier": "C",
@@ -2432,25 +2444,11 @@
      "note": "Middle of the road root beer"
     },
     {
-     "id": 171,
-     "text": "Poppi Cream Soda",
-     "tier": "C",
-     "conf": 46,
-     "note": "Okay. Stevia clashes with creaminess"
-    },
-    {
      "id": 172,
      "text": "Raspberry Nectarine Waterloo",
      "tier": "C",
      "conf": 66,
      "note": "Flavor not too strong, but passable"
-    },
-    {
-     "id": 173,
-     "text": "Rainbow Pop Hint",
-     "tier": "C",
-     "conf": 71,
-     "note": "Feels artificial, flavor is muddied"
     },
     {
      "id": 174,
@@ -2460,23 +2458,23 @@
      "note": "Whatever, not a lot of flavor"
     },
     {
+     "id": 173,
+     "text": "Rainbow Pop Hint",
+     "tier": "C",
+     "conf": 71,
+     "note": "Feels artificial, flavor is muddied"
+    },
+    {
      "id": 175,
      "text": "Sanpellegrino Limonata",
      "tier": "C",
-     "conf": 71,
+     "conf": 67,
      "note": "Very strong, have to pucker a bit to get through"
     },
     {
      "id": 176,
      "text": "Trader Joes Pineapple Green Tea",
      "tier": "C"
-    },
-    {
-     "id": 177,
-     "text": "Trader Joes Sparkling Guava Juice",
-     "tier": "C",
-     "conf": 61,
-     "note": "Somewhat acrid flavor, was hard to get through them"
     },
     {
      "id": 178,
@@ -2486,13 +2484,6 @@
      "note": "purple popsicle juice :|"
     },
     {
-     "id": 179,
-     "text": "Maxim Juice Sorrel Drink",
-     "tier": "C",
-     "conf": 40,
-     "note": "Very unique taste, hard to describe, but sometimes it would feel like it bit you as you drank"
-    },
-    {
      "id": 180,
      "text": "Strawberry Nesquik",
      "tier": "C",
@@ -2500,11 +2491,11 @@
      "note": "Ends up feeling a bit like bubble gum, or a bit chalky. Not the biggest on strawberry milk"
     },
     {
-     "id": 181,
-     "text": "Lemon Snapple",
+     "id": 179,
+     "text": "Maxim Juice Sorrel Drink",
      "tier": "C",
-     "conf": 85,
-     "note": "Occasionally burns my throat. Flavor can be good though"
+     "conf": 40,
+     "note": "Very unique taste, hard to describe, but sometimes it would feel like it bit you as you drank. Sour lemony beet root kinda taste"
     },
     {
      "id": 182,
@@ -2516,13 +2507,14 @@
      "text": "Apple & Eve Apple Juice",
      "tier": "C",
      "conf": 38,
-     "note": "I remember this being the thicker brown apple juice, didn't like it too much"
+     "note": "I remember this being the thicker brown apple juice, didn't like it too much. Maybe they changed it but I dunno."
     },
     {
-     "id": 184,
-     "text": "Trader Joes Spiced Cider",
+     "id": 177,
+     "text": "Trader Joes Sparkling Guava Juice",
      "tier": "C",
-     "note": "What is it with trader joes making spicy drinks? Not as bad as the wassail punch but still"
+     "conf": 61,
+     "note": "Somewhat acrid flavor, was hard to get through them"
     },
     {
      "id": 185,
@@ -2535,6 +2527,12 @@
      "text": "Pom Cherry Pomegranate",
      "tier": "C",
      "note": "Mixed nicely with lemonade, but is generally too tart on its own"
+    },
+    {
+     "id": 184,
+     "text": "Trader Joes Spiced Cider",
+     "tier": "C",
+     "note": "What is it with trader joes making spicy drinks? Not as bad as the wassail punch but still"
     },
     {
      "id": 187,
@@ -2551,11 +2549,11 @@
      "note": "Some redeeming qualities to it, but doesn't really taste like PB&J, tastes kinda dry"
     },
     {
-     "id": 189,
-     "text": "Gold Peak Tea",
+     "id": 200,
+     "text": "Raspberry Laziza",
      "tier": "C",
-     "conf": 10,
-     "note": "Can't remember the last time I had it"
+     "conf": 82,
+     "note": "I still enjoy drinking this, even though there is a bit of a bitterness that comes from it being a malt beverage. The raspberry flavor helps balance it out."
     },
     {
      "id": 190,
@@ -2593,6 +2591,20 @@
      "note": "Sometimes had a kind of 'rotting' watermelon flavor to it, but I ended up getting accustomed to it the more I drank. Not one I would come back to though"
     },
     {
+     "id": 204,
+     "text": "Sunny D",
+     "tier": "C",
+     "conf": 85,
+     "note": "Kicks you in the face with orange flavor. Sometimes I want that, but other times it stings my throat"
+    },
+    {
+     "id": 181,
+     "text": "Lemon Snapple",
+     "tier": "C",
+     "conf": 85,
+     "note": "Occasionally burns my throat. Flavor can be good though"
+    },
+    {
      "id": 195,
      "text": "Senorial Sangria Soda",
      "tier": "C",
@@ -2627,20 +2639,6 @@
      "note": "Tastes like off brand coke, which is what it is."
     },
     {
-     "id": 200,
-     "text": "Raspberry Laziza",
-     "tier": "C",
-     "conf": 82,
-     "note": "I still enjoy drinking this, even though there is a bit of a bitterness that comes from it being a malt beverage. The raspberry flavor helps balance it out."
-    },
-    {
-     "id": 201,
-     "text": "Veggie Tarry Irish Sea Moss",
-     "tier": "C",
-     "conf": 88,
-     "note": "Very interesting vanilla-y flavor, but it was just so dense. I could not finish because of how filling it was."
-    },
-    {
      "id": 202,
      "text": "Pineapple Crush",
      "tier": "C",
@@ -2648,18 +2646,18 @@
      "note": "Weird flavor you really have to slog through, but sometimes I'd get a craving for it"
     },
     {
+     "id": 189,
+     "text": "Gold Peak Tea",
+     "tier": "C",
+     "conf": 10,
+     "note": "Can't remember the last time I had it"
+    },
+    {
      "id": 203,
      "text": "Trader Joes Organic Fruit Punch",
      "tier": "C",
      "conf": 45,
      "note": "Just a whatever juicebox"
-    },
-    {
-     "id": 204,
-     "text": "Sunny D",
-     "tier": "C",
-     "conf": 85,
-     "note": "Kicks you in the face with orange flavor. Sometimes I want that, but other times it stings my throat"
     },
     {
      "id": 205,
@@ -2675,13 +2673,6 @@
      "note": "Very artificial, similar to the skittles ones"
     },
     {
-     "id": 207,
-     "text": "Sour Skittles drink",
-     "tier": "C",
-     "conf": 73,
-     "note": "Very artificial candy liquid, slightly worse than tropical"
-    },
-    {
      "id": 208,
      "text": "Tropical Skittles Drink",
      "tier": "C",
@@ -2689,23 +2680,37 @@
      "note": "Very artificial candy liquid"
     },
     {
-     "id": 209,
-     "text": "Filbert's Banana Soda",
+     "id": 207,
+     "text": "Sour Skittles drink",
      "tier": "C",
-     "note": "Like banana laffy taffy. Kinda nasty, but not unpalatable"
+     "conf": 73,
+     "note": "Very artificial candy liquid, slightly worse than tropical"
+    },
+    {
+     "id": 201,
+     "text": "Veggie Tarry Irish Sea Moss",
+     "tier": "C",
+     "conf": 88,
+     "note": "Very interesting vanilla-y flavor, but it was just so dense. I could not finish because of how filling it was."
     },
     {
      "id": 210,
      "text": "Dasani Water",
-     "tier": "D",
+     "tier": "C",
      "note": "Somehow makes me more thirsty sometimes"
     },
     {
      "id": 211,
      "text": "Smart Water",
-     "tier": "D",
+     "tier": "C",
      "conf": 65,
      "note": "Stupid water, dumb expensive water"
+    },
+    {
+     "id": 209,
+     "text": "Filbert's Banana Soda",
+     "tier": "C",
+     "note": "Like banana laffy taffy. Kinda nasty, but not unpalatable"
     },
     {
      "id": 212,
@@ -2729,43 +2734,25 @@
      "note": "Way too gingery, hard to stomach"
     },
     {
-     "id": 215,
-     "text": "V8 Vegetable Juice",
-     "tier": "D",
-     "conf": 58,
-     "note": "Only makes me feel healthy, but taste is eccchhh"
-    },
-    {
-     "id": 216,
-     "text": "Pure Leaf Unsweet Tea",
-     "tier": "D",
-     "note": "Gross, feels chemically, don't like the bottle"
-    },
-    {
-     "id": 217,
-     "text": "7/11 Caramel Apple Replenish",
-     "tier": "D"
-    },
-    {
      "id": 218,
      "text": "Hawaiian Punch Red",
      "tier": "D",
      "conf": 81,
-     "note": "Just way too much"
+     "note": "Just way too much. Needs to be watered down to be enjoyable at all."
     },
     {
      "id": 219,
      "text": "Hawaiian Punch Orange",
      "tier": "D",
      "conf": 85,
-     "note": "Just way too much"
+     "note": "Just way too much. Needs to be watered down to be enjoyable at all."
     },
     {
-     "id": 220,
-     "text": "Trader Joes 100% Mango Juice",
+     "id": 215,
+     "text": "V8 Vegetable Juice",
      "tier": "D",
-     "conf": 73,
-     "note": "Oddly tasted like leftover cold pizza"
+     "conf": 58,
+     "note": "Only makes me feel healthy, but taste is eccchhh"
     },
     {
      "id": 221,
@@ -2775,10 +2762,17 @@
      "note": "Liquid sweet tarts, but this time in a bad way. Didn't get anything from it energy wise, maybe just heart palpatations"
     },
     {
+     "id": 220,
+     "text": "Trader Joes 100% Mango Juice",
+     "tier": "D",
+     "conf": 73,
+     "note": "Oddly tasted like leftover cold pizza"
+    },
+    {
      "id": 222,
      "text": "Veggie Tarry Pineapple Ginger",
      "tier": "D",
-     "conf": 71,
+     "conf": 57,
      "note": "Very tart ginger taste"
     },
     {
@@ -2787,6 +2781,12 @@
      "tier": "D",
      "conf": 63,
      "note": "Very strong ginger taste that was hard to get past"
+    },
+    {
+     "id": 216,
+     "text": "Pure Leaf Unsweet Tea",
+     "tier": "D",
+     "note": "Gross, feels chemically, don't like the bottle"
     },
     {
      "id": 224,
@@ -2801,6 +2801,13 @@
      "tier": "D",
      "conf": 78,
      "note": "Just kinda tasted \"wet.\" The sugar being in the juice without any other flavorant weirded me out and it was hard to finish."
+    },
+    {
+     "id": 217,
+     "text": "7/11 Caramel Apple Replenish",
+     "tier": "D",
+     "note": "Radioactive green drink that tries to taste brown",
+     "conf": 84
     },
     {
      "id": 226,
@@ -2917,7 +2924,7 @@
      "id": 1795581121932.477,
      "text": "Pitch Black",
      "img": "meshuggah-i",
-     "note": "Wild guitar solo followed by melodic solo, most powerful ending. Shame it ends with a fadeout though. Different vocals in the beginning are interesting",
+     "note": "Wild guitar solo followed by melodic solo, most powerful ending. Shame it ends with a fadeout though. Different vocals in the beginning are interesting. I like that it's in F#",
      "conf": 70,
      "tier": "SS"
     },
@@ -2927,7 +2934,7 @@
      "img": "meshuggah-the-violent-sleep-of-reason",
      "conf": 83,
      "tier": "SS",
-     "note": "One of the heaviest, biting intro chords ever, really enjoy the cold high drones, hypnotic solo is one of my favorites, angelic end is beautiful and haunting. I just wish that the first verse and leadup to the end were a bit more full. This also only applies to the song when sped up to 102% speed."
+     "note": "One of the heaviest, biting intro chords ever, really enjoy the cold high drones, hypnotic solo is one of my favorites, angelic end is beautiful and haunting. I just wish that the first verse and leadup to the end were a bit more full. This also only applies to the song when sped up to 101% speed."
     },
     {
      "id": 1795581243040.455,
