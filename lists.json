@@ -9,7 +9,7 @@
      "id": 1,
      "text": "Fogo De Chao",
      "tier": "SSS",
-     "conf": 88,
+     "conf": 89,
      "note": "Stellar experience. No wait time, incredible steak, never left hungry, great sides and salad bar"
     },
     {
@@ -76,11 +76,18 @@
      "note": "Wider variety than Cava, more convenient, and better tasting drinks. Flavorful Mediterranean wraps, makes me feel healthier"
     },
     {
+     "id": 23,
+     "text": "Zaxby's",
+     "tier": "S",
+     "conf": 82,
+     "note": "Had it for the first time on my road trip, instantly hooked. Super juicy crispy chicken with a lovely lemon pepper seasoning to go with it. FAT crinkle cut fries, bold sauce, nice coleslaw, strawberry nerds milkshake was cool"
+    },
+    {
      "id": 11,
      "text": "Cava",
      "tier": "S",
-     "conf": 42,
-     "note": "Wonderful mediterranean food, makes me feel healthy. Memories with coworkers. Usually get a bowl. Needs more sauce, but otherwise great"
+     "conf": 77,
+     "note": "Wonderful mediterranean food, makes me feel healthy. Memories with coworkers. Usually get a bowl. Needs more sauce, but otherwise great. Service has been kinda ass lately though"
     },
     {
      "id": 12,
@@ -160,11 +167,11 @@
      "note": "Great to meet up with friends. Steak sandwich was phenomenal, liked their cucumber refresher and getting a bloomin' onion. Lovely sides"
     },
     {
-     "id": 23,
-     "text": "Zaxby's",
+     "id": 27,
+     "text": "Crust N' Fire",
      "tier": "S",
-     "conf": 31,
-     "note": "Had it for the first time on my road trip, instantly hooked. Super juicy crispy chicken with a lovely lemon pepper seasoning to go with it"
+     "conf": 79,
+     "note": "Need to go there more to confirm, but that rustic slice with pepperoni and ricotta might be one of my new favorite pizzas. White pie also really tasty, and also raspberry lime rickey."
     },
     {
      "id": 24,
@@ -186,13 +193,6 @@
      "tier": "S",
      "conf": 92,
      "note": "Vodka rig pizza, general tso's pizza, short rib ravioli. Not all dinners are the best there, but they have some major hits"
-    },
-    {
-     "id": 27,
-     "text": "Crust N' Fire",
-     "tier": "S",
-     "conf": 79,
-     "note": "Need to go there more to confirm, but that rustic slice with pepperoni and ricotta might be one of my new favorite pizzas. White pie also really tasty, and also raspberry lime rickey."
     },
     {
      "id": 28,
@@ -537,6 +537,13 @@
      "note": "Really nice pastrami burger, great diner to go to as a default"
     },
     {
+     "id": 79,
+     "text": "Holy Burger",
+     "tier": "B",
+     "conf": 70,
+     "note": "Tasty burger and MASSIVE amount of chicken bites for a crazy cheap price. Need to pat down the chicken to get some of the grease off first cuz otherwise it makes me feel sick"
+    },
+    {
      "id": 77,
      "text": "Culver's",
      "tier": "B",
@@ -549,13 +556,6 @@
      "tier": "B",
      "conf": 46,
      "note": "Tasty street corn dip, meatloaf was mid."
-    },
-    {
-     "id": 79,
-     "text": "Holy Burger",
-     "tier": "B",
-     "conf": 16,
-     "note": "Tasty burger and MASSIVE amount of chicken bites for a crazy cheap price, but didn't feel so good after eating there. Not sure if I should blame the chicken. Need to try again."
     },
     {
      "id": 80,
